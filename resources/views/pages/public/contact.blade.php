@@ -4,6 +4,10 @@
     Forum - Contact
 @stop
 
+@section('css')
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+@stop
+
 @section('content')
     <div class="section-header">
         <div class="container">
@@ -45,9 +49,7 @@
                     </div>
                     <!-- reCAPTCHA -->
                     <div class="form-group" id="form-captcha">
-
-                        <div class="g-recaptcha" data-sitekey="6LeltA0TAAAAAHrfg3lj-ek63YLz8ibwAyhEBd86"><div><div style="width: 304px; height: 78px;"><iframe frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="" tabindex="0" vspace="0" width="304" title="recaptcha-widget" role="presentation" height="78" id="I0_1441265679096" name="I0_1441265679096" src="https://www.google.com/recaptcha/api2/anchor?k=YOUR_SITE_KEY&amp;co=ZmlsZTo.&amp;hl=nl&amp;v=r20150826120751&amp;size=normal&amp;usegapi=1&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.nl.IRkzuTAm1n0.O%2Fm%3D__features__%2Fam%3DAQ%2Frt%3Dj%2Fd%3D1%2Ft%3Dzcms%2Frs%3DAGLTcCNRLl4CS4VHYohSvzHBc7Z2cWb3uw#id=I0_1441265679096&amp;parent=file%3A%2F%2F&amp;pfname=&amp;rpctoken=19400389"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid #c1c1c1; margin: 10px 25px; padding: 0; resize: none;  display: none; " title=""></textarea></div></div>
-                        <span class="help-block"></span>
+                        <div class="g-recaptcha" data-sitekey="6LeltA0TAAAAAHrfg3lj-ek63YLz8ibwAyhEBd86"></div>
                     </div>
                     <!-- /reCAPTCHA -->
                     <button type="submit" class="btn btn-green">Stuur</button>
@@ -70,7 +72,7 @@
                 <!-- Google Maps -->
                 <h4>Google Maps</h4>
                 <hr>
-                <div style="text-decoration:none; overflow:hidden; height:300px; width:350px; max-width:100%;"><div id="gmap_canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Daltonlaan+500,+Utrecht,+Nederland&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe></div><a class="embed-map-code" href="https://www.bootstrapskins.com" id="enable-map-info">bootstrap-based designers</a><style>#gmap_canvas .map-generator{max-width: 100%; max-height: 100%; background: none;</style></div>
+                <div style="text-decoration:none; overflow:hidden; height:300px; width:350px; max-width:100%;"><div id="gmap_canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Daltonlaan+500,+Utrecht,+Nederland&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe></div><a class="embed-map-code" href="https://www.bootstrapskins.com" id="enable-map-info">bootstrap-based designers</a><style scoped>#gmap_canvas .map-generator{max-width: 100%; max-height: 100%; background: none;}</style></div>
             </div>
         </div>
     </div>

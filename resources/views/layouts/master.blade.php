@@ -59,8 +59,8 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Media <b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Foto's</a></li>
-                        <li><a href="#">Video's</a></li>
+                        <li>{!! HTML::link('/fotos', 'Foto"s') !!}</li>
+                        <li>{!! HTML::link('/videos', 'Video"s') !!}</li>
                     </ul>
                 </li>
                 <li>{!! HTML::link('/contact', 'Contact') !!}</li>

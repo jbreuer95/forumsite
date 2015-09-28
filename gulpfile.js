@@ -23,6 +23,7 @@ elixir(function(mix) {
         'custom.css',
         'font-awesome.css',
         'gfonts.css',
+        'swipebox.css',
         'forum.css'
     ]);
 
@@ -33,7 +34,8 @@ elixir(function(mix) {
         'scrolltopcontrol.js',
         'TweenMax.min.js',
         'ScrollToPlugin.min.js',
-        'smoothscroll.js'
+        'smoothscroll.js',
+        'jquery.swipebox.js'
     ]);
 
     mix.copy('resources/assets/libs/fonts', 'public/fonts');

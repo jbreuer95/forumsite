@@ -76,4 +76,23 @@ class PublicController extends Controller {
         return view('pages.public.sponsoren');
     }
 
+    public function fotos(){
+        return view('pages.public.fotos');
+    }
+
+    public function videos(){
+        return view('pages.public.videos');
+    }
+
+    public function wintersport2013(){
+        return view('pages.public.fotos.wintersport2013');
+    }
+
+    public function wintersport2014(){
+        return view('pages.public.fotos.wintersport2014');
+    }
+
+    public function introductiekamp2013(){
+        return view('pages.public.fotos.introductiekamp2013');
+    }
 }

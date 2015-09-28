@@ -43,6 +43,13 @@ Route::get('/contact','PublicController@contact');
 
 Route::get('/partners-en-sponsoren','PublicController@sponsoren');
 
+Route::get('/fotos','PublicController@fotos');
+Route::get('/fotos/wintersport2013','PublicController@wintersport2013');
+Route::get('/fotos/wintersport2014','PublicController@wintersport2014');
+Route::get('/fotos/introductiekamp2013','PublicController@introductiekamp2013');
+
+Route::get('/videos','PublicController@videos');
+
 Route::controllers([
     'auth' => 'Auth\AuthController',
     'password' => 'Auth\PasswordController',

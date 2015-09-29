@@ -7,7 +7,7 @@
                      class="img-responsive" alt="...">
             </div>
             <div class="gallery-bubble">
-                <div class="pull-left">Introductiekamp 2013</div>
+                <div class="pull-left">{{$title}}</div>
                 <div class="clearfix"></div>
             </div>
         </a>

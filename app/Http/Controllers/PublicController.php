@@ -2,6 +2,9 @@
 
 namespace Forum\Http\Controllers;
 
+use Illuminate\Http\Request;
+use Mail;
+
 class PublicController extends Controller {
 
 	public function __construct()
@@ -94,5 +97,24 @@ class PublicController extends Controller {
 
     public function introductiekamp2013(){
         return view('pages.public.fotos.introductiekamp2013');
+    }
+
+    public function sendmail(Request $request){
+        $this->validate($request, [
+            'email' => 'required|email',
+            'name' => 'required',
+            'message' => 'required',
+            'g-recaptcha-response' => 'required|recaptcha',
+        ]);
+
+        Mail::raw($request->message, function ($message) use($request) {
+            $message->from($request->email, $request->name);
+            $message->sender($request->email, $request->name);
+            $message->replyTo($request->email, $request->name);
+            $message->to('secretaris@svforum.nl');
+            $message->subject('Contact Formulier');
+        });
+
+        return redirect('/');
     }
 }

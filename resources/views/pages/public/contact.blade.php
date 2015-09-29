@@ -31,7 +31,7 @@
 
                 <!-- Please carefully read the README.txt file in order to setup
                      the PHP contact form properly -->
-                {!! Form::open(['url' => 'admin/news']) !!}
+                {!! Form::open(['url' => '/contact']) !!}
                 <div class="form-group required @if($errors->has('email')) has-error @endif">
                     {!! Form::label('email','Je email adres',['class' => 'control-label']) !!}
                     {!! Form::email('email', null, ['class' => 'form-control', 'value' => Input::old('email'),'placeholder' => 'E-mail']) !!}
@@ -48,8 +48,9 @@
                     @if ($errors->has('message')) <p class="help-block">{{ $errors->first('message') }}</p> @endif
                 </div>
                 <!-- reCAPTCHA -->
-                <div class="form-group" id="form-captcha">
-                    <div class="g-recaptcha" data-sitekey="6LeltA0TAAAAAHrfg3lj-ek63YLz8ibwAyhEBd86"></div>
+                <div class="form-group required @if($errors->has('g-recaptcha-response')) has-error @endif">
+                    {!! Recaptcha::render() !!}
+                    @if ($errors->has('g-recaptcha-response')) <p class="help-block">{{ $errors->first('g-recaptcha-response') }}</p> @endif
                 </div>
                 <div class="form-group">
                     {!! Form::submit('Stuur', ['class' => 'btn btn-green']) !!}

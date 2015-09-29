@@ -43,7 +43,7 @@ Route::get('/contact','PublicController@contact');
 
 Route::get('/partners-en-sponsoren','PublicController@sponsoren');
 
-Route::post('/contact','PublicController@sponsoren');
+Route::post('/contact','PublicController@sendmail');
 
 Route::get('/fotos','PublicController@fotos');
 Route::get('/fotos/wintersport2013','PublicController@wintersport2013');

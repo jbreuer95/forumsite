@@ -41,6 +41,8 @@ Route::get('/pulmentum','PublicController@pulmentum');
 
 Route::get('/contact','PublicController@contact');
 
+Route::get('/contact/verstuurd','PublicController@contactverstuurd');
+
 Route::get('/partners-en-sponsoren','PublicController@sponsoren');
 
 Route::post('/contact','PublicController@sendmail');

@@ -99,6 +99,10 @@ class PublicController extends Controller {
         return view('pages.public.fotos.introductiekamp2013');
     }
 
+    public function contactverstuurd(){
+        return view('pages.public.verstuurd');
+    }
+
     public function sendmail(Request $request){
         $this->validate($request, [
             'email' => 'required|email',
@@ -115,6 +119,6 @@ class PublicController extends Controller {
             $message->subject('Contact Formulier');
         });
 
-        return redirect('/');
+        return redirect('/contact/verstuurd');
     }
 }

@@ -148,6 +148,7 @@ return [
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
         Illuminate\Html\HtmlServiceProvider::class,
         Greggilbert\Recaptcha\RecaptchaServiceProvider::class,
+        Laracasts\Flash\FlashServiceProvider::class,
 
     ],
 
@@ -200,7 +201,7 @@ return [
         'Form'      => Illuminate\Html\FormFacade::class,
         'HTML'      => Illuminate\Html\HtmlFacade::class,
         'Recaptcha' => Greggilbert\Recaptcha\Facades\Recaptcha::class,
-
+        'Flash'     => Laracasts\Flash\Flash::class,
     ],
 
 ];

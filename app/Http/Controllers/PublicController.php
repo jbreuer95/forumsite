@@ -7,10 +7,6 @@ use Mail;
 
 class PublicController extends Controller {
 
-	public function __construct()
-    {
-		$this->middleware('guest');
-	}
 
 	public function index()
 	{
@@ -121,4 +117,6 @@ class PublicController extends Controller {
 
         return redirect('/contact/verstuurd');
     }
+
+
 }

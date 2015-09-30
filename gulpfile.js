@@ -25,7 +25,14 @@ elixir(function(mix) {
         'gfonts.css',
         'swipebox.css',
         'forum.css'
-    ]);
+    ],'public/css/all.css');
+
+    mix.styles([
+        'bootstrap.css',
+        'timeline.css',
+        'sb-admin-2.css',
+        'font-awesome.css',
+    ],'public/css/admin/all.css');
 
     mix.scripts([
         'jquery-2.1.4.min.js',
@@ -36,7 +43,13 @@ elixir(function(mix) {
         'ScrollToPlugin.min.js',
         'smoothscroll.js',
         'jquery.swipebox.js'
-    ]);
+    ],'public/js/all.js');
+
+    mix.scripts([
+        'jquery-2.1.4.min.js',
+        'bootstrap.js',
+        'sb-admin-2.js'
+    ],'public/js/admin/all.js');
 
     mix.copy('resources/assets/libs/fonts', 'public/fonts');
     mix.copy('resources/assets/img', 'public/img');

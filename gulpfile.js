@@ -32,7 +32,9 @@ elixir(function(mix) {
         'timeline.css',
         'sb-admin-2.css',
         'font-awesome.css',
-    ],'public/css/admin/all.css');
+        'toastr.min.css',
+        'redactor.css'
+    ],'public/css/admin-all.css');
 
     mix.scripts([
         'jquery-2.1.4.min.js',
@@ -48,8 +50,13 @@ elixir(function(mix) {
     mix.scripts([
         'jquery-2.1.4.min.js',
         'bootstrap.js',
-        'sb-admin-2.js'
-    ],'public/js/admin/all.js');
+        'toastr.min.js',
+        'redactor2.js',
+        'table.js',
+        'video.js',
+        'speakingurl.min.js',
+        'slugify.min.js'
+    ],'public/js/admin-all.js');
 
     mix.copy('resources/assets/libs/fonts', 'public/fonts');
     mix.copy('resources/assets/img', 'public/img');

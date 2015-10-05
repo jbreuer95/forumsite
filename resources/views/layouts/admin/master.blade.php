@@ -10,7 +10,7 @@
 
     <title>@yield('title')</title>
 
-    {!! HTML::style('/css/admin/all.css') !!}
+    {!! HTML::style('/css/admin-all.css') !!}
 
     @yield('css')
 
@@ -27,7 +27,7 @@
 
 @yield('content')
 
-{!! HTML::script('js/admin/all.js') !!}
+{!! HTML::script('js/admin-all.js') !!}
 
 @yield('js')
 

@@ -106,3 +106,24 @@ $('.user-status > form > button').on('click', function() {
   $(".user-status > form").toggleClass("hidden show");
   return false;
 });
+
+var uploading = (function () {
+        var pleaseWaitDiv = $('<div class="modal fade" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-hidden="true" style="padding-top:15%; overflow-y:visible;">' +
+            '<div class="modal-dialog modal-m">' +
+            '<div class="modal-content">' +
+            '<div class="modal-header"><h3 style="margin:0;">Uploaden...</h3></div>' +
+            '<div class="modal-body">' +
+            '<div class="progress progress-striped active" style="margin-bottom:0;">' +
+            '<div class="progress-bar" id="progress-bar2" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:100%"></div></div>' +
+            '</div>' +
+            '</div></div></div>');
+        return {
+            show: function () {
+                pleaseWaitDiv.modal('show');
+            },
+            hide: function () {
+                pleaseWaitDiv.modal('hide');
+            }
+
+        };
+    })();

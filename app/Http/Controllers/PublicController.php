@@ -4,6 +4,9 @@ namespace Forum\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Mail;
+use Response;
+use Storage;
+use Validator;
 
 class PublicController extends Controller {
 
@@ -118,5 +121,34 @@ class PublicController extends Controller {
         return redirect('/contact/verstuurd');
     }
 
+    public function upload(Request $request)
+    {
+
+        $file = $request->file('file');
+
+        $v = Validator::make(
+            $request->all(),
+            ['file' => 'required|mimes:jpeg,jpg,png|max:10000']
+        );
+
+        if($v->fails()) {
+            return Response::json(['error' => $v->errors()]);
+        }
+
+        //Use some method to generate your filename here. Here we are just using the ID of the image
+        $filename = 'forum'.uniqid('', true).'.'.$file->getClientOriginalExtension();
+
+        //Push file to S3
+        \Tinify\setKey(\Config::get('services.tinify.key'));
+        $image = \Tinify\fromBuffer(file_get_contents($file))->resize(array('method' => 'fit', 'width' => 1920,'height' => 1080))->toBuffer();
+        $move = Storage::disk('s3')->put('fotos/nieuws/' . $filename, $image);
+        Storage::disk('s3')->setVisibility('fotos/nieuws/' . $filename, 'public');
+
+        if($move){
+            return Response::json(['filelink'=>'http://svforum.s3.eu-central-1.amazonaws.com/fotos/nieuws/'. $filename]);
+        }else{
+            return Response::json(['error'=>true]);
+        }
+    }
 
 }

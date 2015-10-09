@@ -149,6 +149,7 @@ return [
         Illuminate\Html\HtmlServiceProvider::class,
         Greggilbert\Recaptcha\RecaptchaServiceProvider::class,
         Laracasts\Flash\FlashServiceProvider::class,
+        Cviebrock\ImageValidator\ImageValidatorServiceProvider::class,
 
     ],
 

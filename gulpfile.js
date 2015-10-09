@@ -55,7 +55,11 @@ elixir(function(mix) {
         'table.js',
         'video.js',
         'speakingurl.min.js',
-        'slugify.min.js'
+        'slugify.min.js',
+        'jquery.ui.widget.js',
+        'jquery.iframe-transport.js',
+        'jquery.fileupload.js',
+        'custom.js'
     ],'public/js/admin-all.js');
 
     mix.copy('resources/assets/libs/fonts', 'public/fonts');

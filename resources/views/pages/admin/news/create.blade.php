@@ -32,8 +32,9 @@
                     uploading.hide();
                     if(data.result.hasOwnProperty('file')){
                         $.each(data.result.file.filelink, function (index, file) {
-                            $("#img-thumb").attr('src', file);
-                            $("#pictureurl").attr('value', file)
+                            $("#img-thumb").attr('src', 'http://svforum.s3.eu-central-1.amazonaws.com/fotos/nieuws/'+file);
+                            $("#pictureurl").attr('value', 'http://svforum.s3.eu-central-1.amazonaws.com/fotos/nieuws/'+file);
+                            $("#thumbnailurl").attr('value', 'http://svforum.s3.eu-central-1.amazonaws.com/fotos/nieuws/thumbnails/'+file)
                         });
                     }
                     if(data.result.hasOwnProperty('error')) {

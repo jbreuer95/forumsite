@@ -196,39 +196,19 @@
                                 class="decoration"></span><span class="decoration"></span>
                     </h2>
                 </div>
-                <div class="media">
-                    <a class="pull-left" href="#">
-                        {!! HTML::image('img/blog-1.jpg','Blog Message',array('class' => 'media-object')) !!}
-                    </a>
 
-                    <div class="media-body">
-                        <h4 class="media-heading"><a href="#">Story title</a></h4>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ipsum varius,
-                        tincidunt odio nec, placerat enim.
-                    </div>
-                </div>
-                <div class="media">
-                    <a class="pull-left" href="#">
-                        {!! HTML::image('img/blog-2.jpg','Blog Message',array('class' => 'media-object')) !!}
-                    </a>
+                @foreach($news as $article)
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            {!! HTML::image($article->thumbnailurl,'Blog Message',array('class' => 'media-object')) !!}
+                        </a>
 
-                    <div class="media-body">
-                        <h4 class="media-heading"><a href="#">Story title</a></h4>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ipsum varius,
-                        tincidunt odio nec, placerat enim.
+                        <div class="media-body">
+                            <h4 class="media-heading"><a href="#">{{$article->title}}</a></h4>
+                            {!! strip_tags($article->body)!!}
+                        </div>
                     </div>
-                </div>
-                <div class="media">
-                    <a class="pull-left" href="#">
-                        {!! HTML::image('img/blog-3.jpg','Blog Message',array('class' => 'media-object')) !!}
-                    </a>
-
-                    <div class="media-body">
-                        <h4 class="media-heading"><a href="#">Story title</a></h4>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ipsum varius,
-                        tincidunt odio nec, placerat enim.
-                    </div>
-                </div>
+                @endforeach
                 <a href="#" class="read-more">Read more stories...</a>
             </div>
         </div>

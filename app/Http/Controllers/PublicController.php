@@ -2,6 +2,7 @@
 
 namespace Forum\Http\Controllers;
 
+use Forum\News;
 use Illuminate\Http\Request;
 use Mail;
 use Response;
@@ -13,7 +14,8 @@ class PublicController extends Controller {
 
 	public function index()
 	{
-		return view('pages.public.index');
+        $news  = News::all();
+		return view('pages.public.index',compact('news'));
 	}
 
     public function denaam()

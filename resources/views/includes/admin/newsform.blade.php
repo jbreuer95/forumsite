@@ -24,10 +24,12 @@
             {!! Form::label('pictureurl','Foto',['class' => 'control-label']) !!}
             <div>Word geschaald naar 600x315</div>
             <div>
-                {!! Form::hidden('pictureurl', null, ['class' => 'form-control', 'value' => Input::old('description')]) !!}
+
+                {!! Form::hidden('pictureurl', null, ['class' => 'form-control', 'value' => Input::old('pictureurl')]) !!}
+                {!! Form::hidden('thumbnailurl', null, ['id' => 'thumbnailurl','class' => 'form-control', 'value' => Input::old('thumbnailurl')]) !!}
                 <img id="img-thumb" class="user size-lg img-thumbnail"
                      style="height: 315px;width: 600px;@if($errors->has('pictureurl'))border-color: #a94442;@endif"
-                     src="{{ isset($news) ? $news->pictureurl : 'http://cdn.oshu.nl/oshu55b6ea638cdc65.62184446.png' }}">
+                     src="{{ isset($news) ? $news->pictureurl : 'http://svforum.s3.eu-central-1.amazonaws.com/fotos/nieuws/forum561d0b7ba2a117.80797838.png' }}">
                 @if ($errors->has('pictureurl')) <p class="help-block"
                                                  style="color: #a94442;">{{ $errors->first('pictureurl') }}</p> @endif
             </div>

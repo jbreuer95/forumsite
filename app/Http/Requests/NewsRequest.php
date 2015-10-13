@@ -33,7 +33,6 @@ class NewsRequest extends Request
             'title' => 'required|min:3|max:90',
             'slug' => $slug_rule,
             'body' => 'required',
-            'pictureurl' => 'required',
         ];
     }
 }

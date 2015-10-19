@@ -199,17 +199,17 @@
                 @if(count($news) != 0)
                 @foreach($news as $article)
                     <div class="media">
-                        <a class="pull-left" href="#">
+                        <a class="pull-left" href="{{action('PublicController@article', [$article->slug])}}">
                             {!! HTML::image($article->thumbnailurl,'Blog Message',array('class' => 'media-object')) !!}
                         </a>
 
                         <div class="media-body">
-                            <h4 class="media-heading"><a href="#">{{$article->title}}</a></h4>
+                            <h4 class="media-heading"><a href="{{action('PublicController@article', [$article->slug])}}">{{$article->title}}</a></h4>
                             {!! Str::words(strip_tags($article->body), 15, '...') !!}
                         </div>
                     </div>
                 @endforeach
-                <a href="#" class="read-more">Read more stories...</a>
+                <a href="{{action('PublicController@news', '1')}}" class="read-more">Lees meer artikelen...</a>
                 @else
                     <div class="media">
                         <a class="pull-left" href="#">

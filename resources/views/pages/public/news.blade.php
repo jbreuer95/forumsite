@@ -43,6 +43,7 @@
                     @endif
                 </div>
                 <!-- Pagination -->
+                @if(count($news) != 0)
                 <div class="text-center">
                     <ul class="pagination">
                         <li @if($page == 1)class="disabled"@endif><a @if($page != 1)href="{{action('PublicController@news', [$page - 1])}}"@endif><i class="fa fa-caret-left fa-lg"></i></a></li>
@@ -52,6 +53,7 @@
                         <li @if($page == $pages)class="disabled"@endif><a @if($page != $pages)href="{{action('PublicController@news', [$page + 1])}}"@endif><i class="fa fa-caret-right fa-lg"></i></a></li>
                     </ul>
                 </div>
+                @endif
                 <section>
 
                 </section>

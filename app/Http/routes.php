@@ -25,8 +25,6 @@ Route::get('/statuten', 'PublicController@statuten');
 
 Route::get('/hetbestuur', 'PublicController@hetbestuur');
 
-Route::get('/nieuws', 'PublicController@news');
-
 Route::get('/disputen', 'PublicController@disputen');
 
 Route::get('/oforkortat', 'PublicController@oforkortat');
@@ -72,6 +70,9 @@ Route::post('image/upload', 'PublicController@upload');
 Route::resource('admin/news','NewsController');
 Route::get('/nieuws/pagina-{page}', 'PublicController@news')->where('page', '^0*[1-9]\d*$');
 Route::get('/nieuws/artikel/{slug}', 'PublicController@article');
+Route::get('/nieuws/', function(){
+    return redirect('/nieuws/pagina-1');
+});
 
 Route::controllers([
     'auth' => 'Auth\AuthController',

@@ -196,7 +196,7 @@
                                 class="decoration"></span><span class="decoration"></span>
                     </h2>
                 </div>
-
+                @if(count($news) != 0)
                 @foreach($news as $article)
                     <div class="media">
                         <a class="pull-left" href="#">
@@ -210,6 +210,19 @@
                     </div>
                 @endforeach
                 <a href="#" class="read-more">Read more stories...</a>
+                @else
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            {!! HTML::image('http://svforum.s3.eu-central-1.amazonaws.com/fotos/nieuws/thumbnails/forumThumb.png','Blog Message',array('class' => 'media-object')) !!}
+                        </a>
+
+                        <div class="media-body">
+                            <h4 class="media-heading"><a href="#">Er zijn op dit moment geen nieuws artikelen</a></h4>
+                        </div>
+                    </div>
+                    <p>Er zijn op dit moment geen nieuws artikelen</p><br /><br />
+                @endif
+
             </div>
         </div>
     </div>

@@ -203,6 +203,7 @@ return [
         'HTML'      => Illuminate\Html\HtmlFacade::class,
         'Recaptcha' => Greggilbert\Recaptcha\Facades\Recaptcha::class,
         'Flash'     => Laracasts\Flash\Flash::class,
+        'Str'       => Illuminate\Support\Str::class,
     ],
 
 ];

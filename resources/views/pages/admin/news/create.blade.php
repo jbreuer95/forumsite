@@ -1,7 +1,7 @@
 @extends('layouts.admin.mastermenu')
 
 @section('mtitle')
-    OSHU - Nieuwsberichten
+    Forum - Nieuwsberichten
 @stop
 
 @section('mcontent')

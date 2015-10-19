@@ -205,7 +205,7 @@
 
                         <div class="media-body">
                             <h4 class="media-heading"><a href="#">{{$article->title}}</a></h4>
-                            {!! strip_tags($article->body)!!}
+                            {!! Str::words(strip_tags($article->body), 15, '...') !!}
                         </div>
                     </div>
                 @endforeach

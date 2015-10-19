@@ -2,6 +2,7 @@
 
 namespace Forum\Http\Controllers;
 
+use Carbon\Carbon;
 use Forum\News;
 use Illuminate\Http\Request;
 use Mail;
@@ -14,10 +15,28 @@ class PublicController extends Controller {
 
 	public function index()
 	{
-        $news  = News::all();
+        $news = News::latest()->take(5)->get();
 		return view('pages.public.index',compact('news'));
 	}
 
+    public function news($page)
+    {
+        Carbon::setLocale('nl');
+        $posts = News::all()->count();
+        $pages = ceil($posts / 5);
+        if($page > $pages){
+            return redirect('nieuws/pagina-1');
+        }
+        $news = News::latest()->skip(($page - 1) * 5)->take(5)->get();
+        return view('pages.public.news')->with(['news' => $news,'page' => $page, 'pages' => $pages]);
+    }
+
+    public function article($slug)
+    {
+        Carbon::setLocale('nl');
+        $article = News::where('slug',$slug)->first();
+        return view('pages.public.article')->with('article',$article);
+    }
     public function denaam()
     {
         return view('pages.public.denaam');
@@ -41,11 +60,6 @@ class PublicController extends Controller {
     public function hetbestuur()
     {
         return view('pages.public.hetbestuur');
-    }
-
-    public function news()
-    {
-        return view('pages.public.news');
     }
 
     public function disputen(){

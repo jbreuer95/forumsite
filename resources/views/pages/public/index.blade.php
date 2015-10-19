@@ -217,10 +217,11 @@
                         </a>
 
                         <div class="media-body">
-                            <h4 class="media-heading"><a href="#">Er zijn op dit moment geen nieuws artikelen</a></h4>
+                            <h4 class="media-heading"><a href="#">Geen nieuws</a></h4>
+                            Er zijn op dit moment geen nieuws artikelen
                         </div>
                     </div>
-                    <p>Er zijn op dit moment geen nieuws artikelen</p><br /><br />
+
                 @endif
 
             </div>

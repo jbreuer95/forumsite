@@ -23,11 +23,15 @@ class PublicController extends Controller {
     {
         Carbon::setLocale('nl');
         $posts = News::all()->count();
-        $pages = ceil($posts / 5);
-        if($page > $pages){
-            return redirect('nieuws/pagina-1');
+        $pages = 0;
+        $news = News::all();
+        if($posts != 0){
+            $pages = ceil($posts / 5);
+            if($page > $pages){
+                return redirect('nieuws/pagina-1');
+            }
+            $news = News::latest()->skip(($page - 1) * 5)->take(5)->get();
         }
-        $news = News::latest()->skip(($page - 1) * 5)->take(5)->get();
         return view('pages.public.news')->with(['news' => $news,'page' => $page, 'pages' => $pages]);
     }
 

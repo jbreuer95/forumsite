@@ -68,11 +68,11 @@ Route::patch('admin/edit/upload', 'AdminController@upload');
 Route::post('image/upload', 'PublicController@upload');
 
 Route::resource('admin/news','NewsController');
-Route::get('/nieuws/pagina-{page}', 'PublicController@news')->where('page', '^0*[1-9]\d*$');
-Route::get('/nieuws/artikel/{slug}', 'PublicController@article');
 Route::get('/nieuws/', function(){
     return redirect('/nieuws/pagina-1');
 });
+Route::get('/nieuws/pagina-{page}', 'PublicController@news')->where('page', '^0*[1-9]\d*$');
+Route::get('/nieuws/artikel/{slug}', 'PublicController@article');
 
 Route::controllers([
     'auth' => 'Auth\AuthController',

@@ -165,7 +165,7 @@ class PublicController extends Controller {
         Storage::disk('s3')->setVisibility('fotos/nieuws/' . $filename, 'public');
 
         if($move){
-            return Response::json(['filelink'=>'http://svforum.s3.eu-central-1.amazonaws.com/fotos/nieuws/'. $filename]);
+            return Response::json(['filelink'=>'http://d1qut4a1r795dy.cloudfront.net/fotos/nieuws/'. $filename]);
         }else{
             return Response::json(['error'=>true]);
         }

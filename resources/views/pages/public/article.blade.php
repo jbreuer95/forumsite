@@ -8,8 +8,6 @@
     <meta property="og:title"
           content="@if($article){{$article->title}}@endif" />
     <meta property="og:description" content="@if($article){{strip_tags($article->body)}}@endif" />
-    <meta property="og:site_name" content="svforum.nl"/>
-    <meta property="og:type" content="article" />
 @stop
 
 

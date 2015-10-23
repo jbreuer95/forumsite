@@ -41,50 +41,7 @@
 
                 <p><a href="http://www.congarbo.nl" target="_blank">www.congarbo.nl<br/><br/>{!! HTML::image('img/custom/dispuut3.jpg','dispuut',array()) !!}</a></p>
             </div>
-            <div class="col-md-4">
-                <div class="block-header">
-                    <h2 style="margin-top: 10px">
-                        <span class="title">Laatste Nieuws</span><span class="decoration"></span><span
-                                class="decoration"></span><span class="decoration"></span>
-                    </h2>
-                </div>
-                <div class="tab-content">
-                    <div class="media">
-                        <a class="pull-left" href="#">
-                            <img src="http://localhost:8000/img/blog-1.jpg" class="media-object" alt="Blog Message">
-                        </a>
-
-                        <div class="media-body">
-                            <h4 class="media-heading"><a href="#">Story title</a></h4>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ipsum varius, tincidunt
-                            odio nec, placerat enim.
-                        </div>
-                    </div>
-                    <div class="media">
-                        <a class="pull-left" href="#">
-                            <img src="http://localhost:8000/img/blog-2.jpg" class="media-object" alt="Blog Message">
-                        </a>
-
-                        <div class="media-body">
-                            <h4 class="media-heading"><a href="#">Story title</a></h4>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ipsum varius, tincidunt
-                            odio nec, placerat enim.
-                        </div>
-                    </div>
-                    <div class="media">
-                        <a class="pull-left" href="#">
-                            <img src="http://localhost:8000/img/blog-3.jpg" class="media-object" alt="Blog Message">
-                        </a>
-
-                        <div class="media-body">
-                            <h4 class="media-heading"><a href="#">Story title</a></h4>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ipsum varius, tincidunt
-                            odio nec, placerat enim.
-                        </div>
-                    </div>
-                    <a href="#" class="read-more">Read more stories...</a>
-                </div>
-            </div>
+            @include('includes.latestnews')
         </div>
     </div>
 @stop

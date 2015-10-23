@@ -15,7 +15,6 @@ class PublicController extends Controller {
 
 	public function index()
 	{
-        $news = News::latest()->take(5)->get();
 		return view('pages.public.index',compact('news'));
 	}
 

@@ -2,6 +2,7 @@
 
 namespace Forum\Providers;
 
+use Forum\News;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -13,7 +14,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        view()->composer('includes.latestnews', function($view){
+            $view->with('news', News::latest()->take(5)->get());
+        });
     }
 
     /**

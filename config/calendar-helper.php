@@ -24,7 +24,7 @@ return [
 
         'application_name' => 'svforum-1111',
 
-        'key' => '../resources\assets\keys\svforum-9c7e0f84a82f.p12',
+        'key' => '..\resources\assets\keys\svforum-9c7e0f84a82f.p12',
 
         'scopes' => [
             'https://www.googleapis.com/auth/calendar',

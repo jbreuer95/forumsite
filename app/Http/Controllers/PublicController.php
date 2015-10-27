@@ -121,6 +121,12 @@ class PublicController extends Controller {
         return view('pages.public.verstuurd');
     }
 
+    public function agenda(){
+
+        $events = \Cal::google()->events(/*$params = ['timeMin' => Carbon::now()->toRfc3339String()]*/$params = ['orderBy' => 'startTime','singleEvents' => 'true']);
+        return view('pages.public.agenda',compact('events'));
+    }
+
     public function sendmail(Request $request){
         $this->validate($request, [
             'email' => 'required|email',

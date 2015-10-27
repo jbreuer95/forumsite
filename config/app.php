@@ -150,6 +150,7 @@ return [
         Greggilbert\Recaptcha\RecaptchaServiceProvider::class,
         Laracasts\Flash\FlashServiceProvider::class,
         Cviebrock\ImageValidator\ImageValidatorServiceProvider::class,
+        Stevebauman\CalendarHelper\CalendarHelperServiceProvider::class,
 
     ],
 
@@ -204,6 +205,7 @@ return [
         'Recaptcha' => Greggilbert\Recaptcha\Facades\Recaptcha::class,
         'Flash'     => Laracasts\Flash\Flash::class,
         'Str'       => Illuminate\Support\Str::class,
+        'Cal'       => Stevebauman\CalendarHelper\Facades\CalendarHelper::class,
     ],
 
 ];

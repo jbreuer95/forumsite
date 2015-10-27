@@ -45,6 +45,8 @@ Route::get('/partners-en-sponsoren','PublicController@sponsoren');
 
 Route::post('/contact','PublicController@sendmail');
 
+Route::get('/agenda','PublicController@agenda');
+
 Route::get('/fotos','PublicController@fotos');
 Route::get('/fotos/wintersport2013','PublicController@wintersport2013');
 Route::get('/fotos/wintersport2014','PublicController@wintersport2014');

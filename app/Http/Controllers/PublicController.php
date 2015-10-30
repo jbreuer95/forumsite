@@ -122,7 +122,7 @@ class PublicController extends Controller {
     }
 
     public function inschrijven(){
-        return view('pages.public.inschrijven');
+        return view('pages.public.inschrijven2');
     }
 
     public function agenda(){

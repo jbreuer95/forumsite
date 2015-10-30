@@ -67,7 +67,7 @@
                 <li>{!! HTML::link('/contact', 'Contact') !!}</li>
                 <!-- Profile links for extra small screens -->
                 <li>{!! HTML::link('/partners-en-sponsoren', 'Sponsoren') !!}</li>
-                <li><a href="#">Inschrijven</a></li>
+                <li>{!! HTML::link('/inschrijven', 'Inschrijven') !!}</li>
             </ul>
         </div>
     </div>

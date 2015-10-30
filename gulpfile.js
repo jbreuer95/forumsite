@@ -24,7 +24,8 @@ elixir(function(mix) {
         'font-awesome.css',
         'gfonts.css',
         'swipebox.css',
-        'forum.css'
+        'forum.css',
+        'bootstrap-datetimepicker.min.css'
     ],'public/css/all.css');
 
     mix.styles([
@@ -44,7 +45,10 @@ elixir(function(mix) {
         'TweenMax.min.js',
         'ScrollToPlugin.min.js',
         'smoothscroll.js',
-        'jquery.swipebox.js'
+        'jquery.swipebox.js',
+        'moment.min.js',
+        'bootstrap-datetimepicker.min.js',
+        'nl.js'
     ],'public/js/all.js');
 
     mix.scripts([

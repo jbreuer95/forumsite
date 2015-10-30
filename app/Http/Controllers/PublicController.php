@@ -121,6 +121,10 @@ class PublicController extends Controller {
         return view('pages.public.verstuurd');
     }
 
+    public function inschrijven(){
+        return view('pages.public.inschrijven');
+    }
+
     public function agenda(){
 
         $events = \Cal::google()->events(/*$params = ['timeMin' => Carbon::now()->toRfc3339String()]*/$params = ['orderBy' => 'startTime','singleEvents' => 'true']);

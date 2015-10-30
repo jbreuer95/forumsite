@@ -23,7 +23,7 @@
 
                 </div>--}}
                 <div class="col-md-12">
-                    <h1 class="hl text-center top-zero forum">S.v. Forum</h1>
+                    <h1 class="hl text-center top-zero forum" style="text-transform: none;">S.v. Forum</h1>
                     <p class="lead text-center">
                         Het Forum is een plein in het oude Romeinse rijk waar Handel, Cultuur, Politiek en sociale
                         activiteiten samen kwamen. De hoofdfunctie van het Forum was Commercieel economisch van

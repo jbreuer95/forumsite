@@ -44,10 +44,10 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Wie zijn wij? <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li>{!! HTML::link('/denaam', 'De naam') !!}</li>
-                        <li>{!! HTML::link('/disputen', 'Disputen') !!}</li>
                         <li>{!! HTML::link('/missieenvisie', 'Missie en visie') !!}</li>
                         <li>{!! HTML::link('/hetbestuur', 'Het bestuur') !!}</li>
                         <li>{!! HTML::link('/comissies', 'Commissies') !!}</li>
+                        <li>{!! HTML::link('/disputen', 'Disputen') !!}</li>
                         <li>{!! HTML::link('/statuten', 'Statuten') !!}</li>
                     </ul>
                 </li>

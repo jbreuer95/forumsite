@@ -160,24 +160,32 @@
                 </div>
                 {!! HTML::image('img/custom/logofront.png','Logo FORUM',array('class' => 'img-about img-responsive')) !!}
                 <p>
-                    D&eacute; studievereniging van de Faculteit Economie & Management van Hogeschool Utrecht.
-                    In het kort is S.v. Forum een mix van gezelligheid en studie.
-                    We organiseren borrels, feesten, wintersportvakantie en elk jaar een fantastisch introductiekamp.
-                    Daarnaast organiseren we studiegerelateerde activiteiten als bedrijfsbezoeken, workshops,
-                    en grote evenementen als het Junior MIE congres en Utrecht College Tour.
+                    S.v. Forum is d&eacute; studievereniging van de Faculteit Economie & Management (FEM).
                 </p>
-
                 <p>
-                    Onze leden willen naast hun studie iets extra's leren en gezellig een borrel bezoeken, samen op
-                    wintersport en gezellig naar een leuk thema feest.
-                    Daarnaast krijgt ieder lid de kans om een bestuurs- of commissie functie te bekleden, wat natuurlijk
-                    heel goed op je CV staat.
-                    <br/><br/>
-                    Een lidmaatschap van S.v. Forum is geheel gratis omdat we door een goed sponsor beleid voldoende
-                    inkomsten hebben om alle activiteiten
-                    te bekostigen. Hierdoor kunnen wij de student gratis aanbieden gebruik te maken van alle extra's die
-                    S.v. Forum biedt.
+                    We faciliteren een optimale combinatie tussen gezelligheid en studiesucces. Dit doen we door middel
+                    van het organiseren van (netwerk)borrels, (thema)feesten, karaoke avonden, en vele andere
+                    activiteiten. Daarnaast gaan we ook elk jaar met een leuke groep op wintersport en organiseren we
+                    het inmiddels befaamde introductiekamp voor eerstejaars studenten.
 
+                </p>
+                <p>
+                    Ook leggen wij de focus op vele verschillende studie-activiteiten, waaronder bedrijfsbezoeken,
+                    workshops, lezingen, en grote evenementen als symposia, Utrecht College Tour sessies, en het
+                    jaarlijks terugkerende Junior Marketing Congres. Om ervoor te zorgen dat onze leden het maximale uit
+                    hun studie op de FEM kunnen halen helpen we ze natuurlijk ook met al hun vragen, klachten, en
+                    problemen, zodat ze zich compleet op hun studie kunnen focussen.
+                </p>
+                <p>
+                    Een lidmaatschap bij S.v. Forum is vrijblijvend, en geheel gratis omdat we door een goed financieel
+                    beleid en een nauwe samenwerking met sponsoren alle activiteiten kunnen bekostigen. Hierdoor kunnen
+                    onze leden gratis gebruik maken van alle extra's die S.v. Forum biedt.
+
+                </p>
+                <p>
+                    Naast een gewoon lidmaatschap kan je ook lid zijn van een van onze disputen. Dit zijn verticale
+                    dames- en herengenootschappen, hechte vriendengroepen die samen veel leuke dingen doen. Lees
+                    hierover meer onder het kopje disputen.
                 </p>
 
                 <div class="info-board info-board-blue">

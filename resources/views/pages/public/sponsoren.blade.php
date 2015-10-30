@@ -18,7 +18,7 @@
     <div class="container">
             <hr>
             <p>
-                Met trots bieden wij op deze pagina een overzicht van onze partners en sponsoren aan. S.v. Forum biedt een rijkelijk scala aan voordelen, om een gezonde samenwerking tot stand te laten komen
+                Met trots bieden wij op deze pagina een overzicht van onze partners en sponsoren aan. S.v. Forum biedt een rijkelijk scala aan voordelen, om een gezonde samenwerking tot stand te laten komen.
                 Mocht u ook interesse hebben om S.v. Forum te sponsoren, of enkele vragen hebben, neem dan contact op met Bas Degenhart, onze Commissaris Acquisitie & PR.<br/>
                 E-mailadres: <a href="mailto:sponsoring@svforum.nl">sponsoring@svforum.nl</a><br/>
                 Telefoon: 06-55684355<br/><br/>

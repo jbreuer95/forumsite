@@ -45,6 +45,11 @@ class PublicController extends Controller {
         return view('pages.public.denaam');
     }
 
+    public function bestuur()
+    {
+        return view('pages.public.hetbestuur');
+    }
+
     public function menv()
     {
         return view('pages.public.menv');

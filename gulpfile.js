@@ -14,7 +14,6 @@ var elixir = require('laravel-elixir');
 elixir.config.sourcemaps = false;
 
 elixir(function(mix) {
-    mix.sass('forum.scss','resources/assets/css');
 
     mix.styles([
         'bootstrap.css',

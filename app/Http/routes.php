@@ -15,6 +15,8 @@ Route::get('/', 'PublicController@index');
 
 Route::get('home', 'HomeController@index');
 
+Route::get('/hetbestuur', 'PublicController@bestuur');
+
 Route::get('/denaam', 'PublicController@denaam');
 
 Route::get('/missieenvisie', 'PublicController@menv');

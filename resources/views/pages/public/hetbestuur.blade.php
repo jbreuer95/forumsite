@@ -71,7 +71,7 @@
                             Enkele van deze taken zijn het lanceren van de website, het zelfstandig maken en uitbreiden
                             van de RedacCie en het professionaliseren van het ledenbestand, de communicatiemiddelen, de
                             verslaglegging, het archief en de RedacCie.<br/><br/>
-                            
+
                             Dit om de vereniging en haar continuïteit zo sterk mogelijk te maken en een stevige
                             fundering voor de volgende besturen te leggen. Daarnaast vind ik het ook belangrijk dat de
                             leden zo goed mogelijk bediend worden in de communicatie over onze geweldige activiteiten,

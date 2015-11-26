@@ -130,21 +130,39 @@
                 <div class="content">
                     <p>Vul hieronder je e-mailadres in voor onze nieuwsbrief.<br/>We beloven je niet te vaak lastig te
                         vallen!</p>
-
-                    <form class="form" role="form">
-                        <div class="row">
-                            <div class="col-sm-8">
-                                <div class="input-group">
-                                    <label class="sr-only" for="subscribe-email">Email address</label>
-                                    <input type="email" class="form-control" id="subscribe-email"
-                                           placeholder="e-mailadres">
+                    <div id="mc_embed_signup">
+                        <form action="//svforum.us3.list-manage.com/subscribe/post?u=6ad6abfc70eb0e83a77f3f98c&amp;id=9912a3ec47"
+                              method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+                              class="validate" target="_blank" novalidate>
+                            <div class="row">
+                                <div class="col-sm-8">
+                                    <div class="input-group">
+                                        <label class="sr-only" for="subscribe-email">Email address</label>
+                                        <input type="email" value="" name="EMAIL" class="required email form-control"
+                                               id="mce-EMAIL" placeholder="e-mailadres">
                                     <span class="input-group-btn">
-                                      <button type="submit" class="btn btn-default">OK</button>
+                                        <input type="submit" value="OK"
+                                               name="subscribe"
+                                               id="mc-embedded-subscribe"
+                                               class="button btn btn-default">
                                     </span>
+                                    <div id="mce-responses" class="clear">
+                                        <div class="response" id="mce-error-response" style="display:none"></div>
+                                        <div class="response" id="mce-success-response" style="display:none"></div>
+                                    </div>
+                                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                        <input type="text"
+                                               name="b_6ad6abfc70eb0e83a77f3f98c_9912a3ec47"
+                                               tabindex="-1"
+                                               value="">
+                                    </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </form>
+                        </form>
+                    </div>
+
+                    <!--End mc_embed_signup-->
                 </div>
             </div>
         </div>

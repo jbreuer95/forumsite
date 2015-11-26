@@ -155,6 +155,38 @@ class PublicController extends Controller {
         return redirect('/contact/verstuurd');
     }
 
+    public function postinschrijven(Request $request){
+        $this->validate($request, [
+            'name' => 'required',
+            'sex' => 'required',
+            'birthday' => 'required',
+            'nationality' => 'required',
+            'address' => 'required',
+            'postalcode' => 'required',
+            'city' => 'required',
+            'country' => 'required',
+            'phonenumber' => 'required',
+            'email' => 'required|email',
+            'commission' => 'required',
+            'dispuut' => 'required',
+            'studentnumber' => 'required',
+            'study' => 'required',
+            'startingstudyyear' => 'required',
+            'g-recaptcha-response' => 'required|recaptcha',
+        ]);
+
+
+/*        Mail::raw($request->message, function ($message) use($request) {
+            $message->from($request->email, $request->name);
+            $message->sender($request->email, $request->name);
+            $message->replyTo($request->email, $request->name);
+            $message->to('secretaris@svforum.nl');
+            $message->subject('Contact Formulier');
+        });*/
+
+        return redirect('/contact/verstuurd');
+    }
+
     public function upload(Request $request)
     {
 

@@ -82,6 +82,69 @@
     </div>
     <!-- / .hp-showcase -->
     <div class="container">
+        <!-- Services
+         ================ -->
+        <div class="row">
+            <div class="col-md-12">
+
+                <div class="services">
+                    <div class="services__item">
+                        <div class="services-item__body">
+                            <i class="services-item__icon fa fa-briefcase fa-3x"></i>
+
+                            <div class="services-item__content">
+                                <p class="services-item__caption">Agenda</p>
+                                <a class="services-item__link" href="/agenda">Ga naar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services__item">
+                        <div class="services-item__body">
+                            <i class="services-item__icon fa fa-cloud-upload fa-3x"></i>
+
+                            <div class="services-item__content">
+                                <p class="services-item__caption">Commissies</p>
+                                <a class="services-item__link" href="/commissies">Ga naar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services__item">
+                        <div class="services-item__body">
+                            <i class="services-item__icon fa fa-laptop fa-3x"></i>
+
+                            <div class="services-item__content">
+                                <p class="services-item__caption">Nieuws</p>
+                                <a class="services-item__link" href="/nieuws">Ga naar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services__item">
+                        <div class="services-item__body">
+                            <i class="services-item__icon fa fa-gears fa-3x"></i>
+
+                            <div class="services-item__content">
+                                <p class="services-item__caption">Disputen</p>
+                                <a class="services-item__link" href="/disputen">Ga naar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services__item">
+                        <div class="services-item__body">
+                            <i class="services-item__icon fa fa-compass fa-3x"></i>
+
+                            <div class="services-item__content">
+                                <p class="services-item__caption">Foto's</p>
+                                <a class="services-item__link" href="/fotos">Ga naar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <!-- / .services -->
+
+            </div>
+        </div>
+        <!-- / row -->
         <div class="row">
             <!-- Welcome message
                 ================= -->
@@ -122,10 +185,8 @@
                 </p>
 
                 <div class="info-board info-board-blue">
-                    <h4>Schrijf je in</h4>
-
-                    <p>Schrijf je nu gratis in en word lid van de gezelligste groep studenten van de FEM! En like ons
-                        hier op Facebook!</p>
+                    <p>{!! HTML::link('/inschrijven', 'Schrijf') !!} je nu gratis in en word lid van d&eacute; studievereniging van de Faculteit Economie & Management (FEM)! En like ons
+                        {!! HTML::link('https://www.facebook.com/studieverenigingforum', 'hier',['target' => '_blank']) !!} op Facebook!</p>
                 </div>
             </div>
             <!-- Last updated

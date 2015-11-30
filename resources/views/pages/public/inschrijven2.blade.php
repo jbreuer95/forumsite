@@ -102,7 +102,7 @@
                     @if ($errors->has('email')) <p class="help-block">{{ $errors->first('email') }}</p> @endif
                 </div>
                 <div class="form-group required @if($errors->has('commission')) has-error @endif">
-                    <label for="commission" class="control-label"><a href="/comissies" target="_blank">Commissie (al lid van / geïnteresseerd in) / Commission (current member of /I’m interested in)</a></label>
+                    <label for="commission" class="control-label"><a href="/commissies" target="_blank">Commissie (al lid van / geïnteresseerd in) / Commission (current member of /I’m interested in)</a></label>
                     {!! Form::select('commission',
                         [
                            'Geen'                                   => 'Geen / None',

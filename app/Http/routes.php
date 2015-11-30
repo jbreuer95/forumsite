@@ -21,7 +21,7 @@ Route::get('/denaam', 'PublicController@denaam');
 
 Route::get('/missieenvisie', 'PublicController@menv');
 
-Route::get('/comissies', 'PublicController@commissies');
+Route::get('/commissies', 'PublicController@commissies');
 
 Route::get('/statuten', 'PublicController@statuten');
 

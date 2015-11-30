@@ -91,7 +91,7 @@
 
                             Voor alle vragen kan je bij mij terecht
                             op {!! HTML::link('mailto:secretaris@svforum.nl', 'secretaris@svforum.nl') !!}
-                            Ook ben ik vanaf januari vaak te vinden in ons kantoor (3.19) op Daltonlaan 500.
+                            Ook ben ik vanaf januari vaak te vinden in ons kantoor (3.19) op Daltonlaan 500. 
                         </p>
                     </div>
                     <div class="member-left">
@@ -155,32 +155,10 @@
                             leslokaal en wij kunnen studenten ondersteunen met het behalen van hun studiepunten.
                             <br/>
                             {!! HTML::link('educatie@svforum.nl', 'educatie@svforum.nl') !!}
-                        </p>
+                        </p>*
                     </div>
                     <div class="member-right">
-                        {!! HTML::image('img/custom/gerrit.jpg','Stephan Versteeg',array('class' => 'left')) !!}
-                        <h4>Stephan Versteeg</h4>
-
-                        <p class="position">Commissaris Internationale betrekkingen</p>
-
-                        <p>
-                            Binnen het bestuur der S.v. Forum bekleed ik de functie van Commissaris Internationale
-                            Betrekkingen. Aangezien dit het eerste jaar is dat deze functie onderdeel is van het bestuur
-                            van S.v. Forum, zal ik veel nieuwe dingen leren op internationaal vlak.<br/><br/>
-
-                            Mijn visie voor aankomend jaar is om de continuïteit van de vereniging te vergroten op
-                            internationaal vlak. Door middel van het opzetten van een internationale gemeenschap binnen
-                            de vereniging en de hogeschool Utrecht, hoop ik dit doel te behalen.<br/><br/>
-
-                            Hiernaast zal ik me richten op de internationale student. In samenwerking met mijn
-                            medecommissarissen, zal ik aan de jaarlijkse activiteiten en borrels een internationaal
-                            aspect toevoegen.
-                            <br/>
-                            {!! HTML::link('mailto:international@svforum.nl', 'international@svforum.nl') !!}
-                        </p>
-                    </div>
-                    <div class="member-left">
-                        {!! HTML::image('img/custom/gerrit.jpg','Bas Degenhart',array('class' => 'left')) !!}
+                        {!! HTML::image('img/custom/gerrit.jpg','Bas Degenhart',array('class' => 'right')) !!}
                         <h4>Bas Degenhart</h4>
 
                         <p class="position">Commissaris Acquisitie & PR</p>

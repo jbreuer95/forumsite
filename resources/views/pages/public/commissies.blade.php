@@ -10,7 +10,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <!-- Remove the .animated class if you don't want things to move -->
-                    <h1 class="animated slideInLeft"><span>Comissies</span></h1>
+                    <h1 class="animated slideInLeft"><span>Commissies</span></h1>
                 </div>
             </div>
         </div>

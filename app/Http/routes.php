@@ -19,7 +19,7 @@ Route::get('/hetbestuur', 'PublicController@bestuur');
 
 Route::get('/denaam', 'PublicController@denaam');
 
-Route::get('/missieenvisie', 'PublicController@menv');
+Route::get('/missie-en-visie', 'PublicController@menv');
 
 Route::get('/commissies', 'PublicController@commissies');
 

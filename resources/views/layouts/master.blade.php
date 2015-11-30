@@ -44,7 +44,7 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Wie zijn wij? <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li>{!! HTML::link('/denaam', 'De naam') !!}</li>
-                        <li>{!! HTML::link('/missieenvisie', 'Missie en visie') !!}</li>
+                        <li>{!! HTML::link('/missie-en-visie', 'Missie en visie') !!}</li>
                         <li>{!! HTML::link('/hetbestuur', 'Het bestuur') !!}</li>
                         <li>{!! HTML::link('/commissies', 'Commissies') !!}</li>
                         <li>{!! HTML::link('/disputen', 'Disputen') !!}</li>
@@ -106,7 +106,7 @@
                                                 </li>--}}
                         <li><a href="https://www.facebook.com/studieverenigingforum" target="_blank"><i class="fa fa-facebook"></i></a>
                         </li>
-                        <li><a href="https://www.linkedin.com/company/studievereniging-forum"><i class="fa fa-linkedin"></i></a>
+                        <li><a href="https://www.linkedin.com/company/studievereniging-forum" target="_blank"><i class="fa fa-linkedin"></i></a>
                         </li>
 {{--                        <li><a href="#"><i class="fa fa-pinterest"></i></a>
                         </li>

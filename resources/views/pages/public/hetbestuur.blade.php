@@ -66,32 +66,32 @@
                             Per 1 september ben ik voor de derde, en laatste, keer aan een bestuursjaar als Secretaris &
                             Vice-voorzitter begonnen bij Studievereniging Forum. Dit jaar wil ik me (wederom) focussen
                             op de professionalisering en overdracht van mijn functie, en het afronden van de huidige
-                            lopende taken.<br/><br/>
+                            lopende taken.<br><br>
 
                             Enkele van deze taken zijn het lanceren van de website, het zelfstandig maken en uitbreiden
                             van de RedacCie en het professionaliseren van het ledenbestand, de communicatiemiddelen, de
-                            verslaglegging, het archief en de RedacCie.<br/><br/>
+                            verslaglegging, het archief en de RedacCie.<br><br>
 
                             Dit om de vereniging en haar continuïteit zo sterk mogelijk te maken en een stevige
                             fundering voor de volgende besturen te leggen. Daarnaast vind ik het ook belangrijk dat de
                             leden zo goed mogelijk bediend worden in de communicatie over onze geweldige activiteiten,
-                            evenementen en services.<br/><br/>
+                            evenementen en services.<br><br>
 
                             Naast het bovenstaande wil ik ook een uitgebreide overdrachtsperiode voorbereiden voor mijn
                             opvolger. Aangezien ik deze functie tegen de tijd van overdracht drie jaar heb uitgevoerd is
                             het zeer belangrijk dat mijn opvolger met een vliegende start aan zijn/haar bestuursjaar kan
-                            beginnen.<br/><br/>
+                            beginnen.<br><br>
 
                             Ook wil ik me dit jaar opstellen als vraagbaak voor mijn medebestuursleden. Ik loop al ruim
                             twee jaar rond in deze vereniging en heb als Forum bestuurder het meeste ervaring van het
                             bestuur. Deze ervaring wil ik gebruiken om het bestuursjaar voor mijn medebestuurders zo
                             gemakkelijk en aangenaam mogelijk te maken. Door mij zo op te stellen binnen het bestuur
                             hoop ik dat het bestuur zo efficiënt mogelijk aan de slag kan om jullie een geweldig jaar te
-                            kunnen bieden!<br/><br/>
+                            kunnen bieden!<br><br>
 
                             Voor alle vragen kan je bij mij terecht
                             op {!! HTML::link('mailto:secretaris@svforum.nl', 'secretaris@svforum.nl') !!}
-                            Ook ben ik vanaf januari vaak te vinden in ons kantoor (3.19) op Daltonlaan 500. 
+                            Ook ben ik vanaf januari vaak te vinden in ons kantoor (3.19) op Daltonlaan 500.
                         </p>
                     </div>
                     <div class="member-left">

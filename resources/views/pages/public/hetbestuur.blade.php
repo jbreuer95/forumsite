@@ -51,7 +51,7 @@
                             honderd jaar nog steeds een fantastische vereniging is!<br/><br/>
 
                             Bij vragen over de vereniging kun je contact opnemen via de mail of me even aanschieten als
-                            ik op school
+                            ik op school ben.
                             <br/>
                             {!! HTML::link('mailto:voorzitter@svforum.nl', 'voorzitter@svforum.nl') !!}
                         </p>
@@ -148,7 +148,7 @@
                             Daarnaast wil ik de stem van studenten uitdragen door een grote rol te spelen in
                             medezeggenschap.<br/><br/>
 
-                            Met meer inhoudelijke activiteiten kan de student zich ontplooien op het studie vlal
+                            Met meer inhoudelijke activiteiten kan de student zich ontplooien op het studie vlak
                             Studenten moeten zichzelf op het gebied van economische vakgebieden kunnen verbeteren. Forum
                             kan hierin een breed perspectief aanbieden waarin wij samen activiteiten organiseren die
                             dergelijke inzichten geven. Studenten kunnen door deze activiteiten meer leren dan in het

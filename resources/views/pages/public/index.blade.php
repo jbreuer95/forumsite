@@ -9,13 +9,13 @@
       ================ -->
     <div id="hp-slider" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
-        <ol class="carousel-indicators">
+        {{--<ol class="carousel-indicators">
             <li data-target="#hp-slider" data-slide-to="0" class="active"></li>
             <li data-target="#hp-slider" data-slide-to="1"></li>
-        </ol>
+        </ol>--}}
 
         <!-- Wrapper for slides -->
-        <div class="carousel-inner">
+        {{--<div class="carousel-inner">
             <!-- Slider #1 -->
             <div class="item active">
                 <div class="container">
@@ -40,15 +40,15 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>--}}
 
         <!-- Controls -->
-        <a class="carousel-arrow carousel-arrow-prev" href="#hp-slider" data-slide="prev">
+{{--        <a class="carousel-arrow carousel-arrow-prev" href="#hp-slider" data-slide="prev">
             <i class="fa fa-angle-left"></i>
         </a>
         <a class="carousel-arrow carousel-arrow-next" href="#hp-slider" data-slide="next">
             <i class="fa fa-angle-right"></i>
-        </a>
+        </a>--}}
     </div>
     <!-- / .hp-showcase -->
     <div class="container">

@@ -24,7 +24,7 @@
             <h2 class="hl top-zero">Inschrijven S.v. Forum</h2>
             <hr>
             <!-- Contact us form -->
-            <div class="col-sm-4">
+            <div class="col-sm-6">
                 <!-- Out Address -->
 
                 <p>Leuk dat je lid wil worden van S.v. Forum. Het enige wat je nu nog moet is hiernaast je gegevens invullen. Dan bieden wij jou in de toekomst:</p>
@@ -46,7 +46,7 @@
                     <li>A free membership</li>
                 </ul>
             </div>
-            <div class="col-sm-8">
+            <div class="col-sm-6">
                 {!! Form::open(['url' => '/inschrijven']) !!}
                 <div class="form-group required @if($errors->has('name')) has-error @endif">
                     {!! Form::label('name','Naam / Name',['class' => 'control-label']) !!}

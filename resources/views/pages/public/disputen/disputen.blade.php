@@ -17,7 +17,7 @@
     </div>
     <div class="container">
             <hr>
-            <p>Vol trots kan S.v. Forum zeggen dat er vijf disputen de vereniging zijn aangesloten. Twee
+            <p>Vol trots kan S.v. Forum zeggen dat er vijf disputen bij de vereniging zijn aangesloten. Twee
                 mannelijke disputen, twee vrouwelijke disputen en &eacute;&eacute;n gemengd dispuut.
                 Klik op het logo om meer te weten te komen over de vijf disputen van S.v. Forum:
             </p>

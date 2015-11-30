@@ -20,7 +20,7 @@
             <div class="col-md-8 col">
                 <h2 class="forum" style="margin-top: 10px">Statuten Studievereniging Forum</h2>
                 <p>
-                    Door op de ondestaande link te klikken zijn de statuten van S.v. Forum te vinden.
+                    Door op de onderstaande link te klikken zijn de statuten van S.v. Forum te vinden.
                 </p>
                 <p>
                     {!! HTML::link('licenses/Statuten.pdf','Statuten Studievereniging Forum',array('target' => '_blank')) !!}

@@ -43,7 +43,7 @@
                     @if ($errors->has('name')) <p class="help-block">{{ $errors->first('name') }}</p> @endif
                 </div>
                 <div class="form-group required @if($errors->has('message')) has-error @endif">
-                    {!! Form::label('message','Je Bericht',['class' => 'control-label']) !!}
+                    {!! Form::label('message','Je bericht',['class' => 'control-label']) !!}
                     {!! Form::textarea('message', null, ['class' => 'form-control', 'rows' => '9','placeholder' => 'Bericht' ,'value' => Input::old('message')]) !!}
                     @if ($errors->has('message')) <p class="help-block">{{ $errors->first('message') }}</p> @endif
                 </div>

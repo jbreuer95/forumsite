@@ -26,7 +26,7 @@
                     <h1 class="hl text-center top-zero forum" style="text-transform: none;">S.v. Forum</h1>
                     <p class="lead text-center">
                         Het Forum is een plein in het oude Romeinse rijk waar Handel, Cultuur, Politiek en sociale
-                        activiteiten samen kwamen. De hoofdfunctie van het Forum was Commercieel economisch van
+                        activiteiten samen kwamen. De hoofdfunctie van het Forum was commercieel economisch van
                         aard, alle handel verliep via het Forum. Daarnaast vonden sociale activiteiten van het volk zoals
                         feesten vaak plaats op het Forum.
                     </p>

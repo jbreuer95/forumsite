@@ -19,7 +19,7 @@
         <div class="row">
             <div class="col-md-8 col">
                 <h2 class="forum" style="margin-top: 10px">Missie en Visie</h2>
-                <h3 class="forum">(Lange termijn) Missie van S.v. Forum:</h3>
+                <h3 class="forum">(Lange termijn) Missie:</h3>
                 <p>
                     "Bijdragen aan de ontwikkeling van de carrière van studenten aan de Faculteit Economie en Management van de Hogeschool Utrecht,
                     deze studenten in contact brengen met de beroepspraktijk en bijdragen aan een gezelligere studententijd."
@@ -51,7 +51,7 @@
                 <p>
                     Gezamenlijk als een FEM-familie streeft S.v. Forum naar verbetering van de kwaliteit van het onderwijs en vergroting van de gezelligheid
                     op de faculteit.
-                    Om uit te groeien tot een onmisbare vereniging binnen de Faculteit Economie Management met een grote naamsbekendheid, bij onder
+                    Om uit te groeien tot een onmisbare vereniging binnen de Faculteit Economie & Management met een grote naamsbekendheid, bij onder
                     meer de Hogeschool Utrecht en haar partners."
                 </p>
             </div>

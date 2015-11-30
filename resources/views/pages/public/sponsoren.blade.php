@@ -61,7 +61,7 @@
                             {!! HTML::image('img/custom/x.jpg','dispuut',array('class' => 'img-responsive','style' => 'height:175px;margin:auto')) !!}
                         </div>
                         <div class="gallery-text">
-                            <div class="gallery-title">The next network</div>
+                            <div class="gallery-title">The Next Network</div>
                         </div>
                     </a>
                 </div>
@@ -87,7 +87,7 @@
                             {!! HTML::image('img/custom/buddygodutch.jpg','dispuut',array('class' => 'img-responsive','style' => 'height:175px;margin:auto')) !!}
                         </div>
                         <div class="gallery-text">
-                            <div class="gallery-title">Buddy go dutch</div>
+                            <div class="gallery-title">Buddy Go Dutch</div>
                         </div>
                     </a>
                 </div>

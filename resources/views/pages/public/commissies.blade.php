@@ -22,11 +22,11 @@
 
                 <p>
                     Naast het bestuur van de vereniging zijn er ook verschillende commissies nodig voor de organisatie.
-                    Commissies worden gevuld door de meeste actieve leden binnen vereniging.
+                    Commissies worden gevuld door de meeste actieve leden binnen de vereniging.
                     Mocht je interesse hebben om plaats te nemen in een commissie, en een wezenlijke bijdrage te leveren
                     aan het jaar van S.v. Forum. Neem dan contact op met de secretaris via: <a
                             href="mailto:secretaris@svforum.nl">secretaris@svforum.nl</a><br/>
-                    Het bestuur '15-'15 heeft besloten dit jaar de volgende commissies op te zetten.
+                    Het bestuur '15-'16 heeft besloten dit jaar de volgende commissies op te zetten.
 
                 </p>
 
@@ -48,7 +48,8 @@
                 <h3 class="forum">Kas Controle Commissie (KasCo)</h3>
 
                 <p>
-                    De Kas Controle Commissie bestaat momenteel uit één docent, Roderick Udo. Het doel van de Kas
+                    De Kas Controle Commissie bestaat momenteel uit één docent; Roderick Udo en één leerling; Iram
+                    Sattaur. Het doel van de Kas
                     Controle Commissie is het controleren van het financieel verslag, en naar aanleiding van deze
                     controle een oordeel vormen omtrent het financiële beheer van de vereniging. De commissie heeft dus
                     een adviserende rol waarin het advies gehoord dient te worden, maar niet bindend is.
@@ -68,8 +69,8 @@
 
                 <p>
                     Deze commissie is verantwoordelijk voor alle educatieve activiteiten. Variërend van Utrecht College
-                    Tour, Studie-uurtjes, Gastsprekers in het clustercafé en TEDx 2016. Deze commissie staat onder
-                    leiding van de commissaris Educatie, die gesteund wordt in haar werkzaamheden door Tessa Visser.
+                    Tour, studie-uurtjes, gastsprekers in het clustercafé en TEDx 2016. Deze commissie staat onder
+                    leiding van de commissaris Educatie.
                 </p>
 
                 <h3 class="forum">Promotie Commissie (PromoCie)</h3>
@@ -89,7 +90,7 @@
                     Alles rond de wintersport zal door deze commissie ingevuld worden. Van een globaal programma op
                     locatie, het regelen van de locatie tot de paklijst samenstellen vooraf aan de reis. Leden van deze
                     commissie zijn: Michiel van Dijk, Bibi Klein Nagelvoort, Jelmer Schuurman, Joost Kuijf, Josephine
-                    Kloeken, Julie Burauen en Aimee van Gils.
+                    Kloeken, en Patrick Brouwer.
                 </p>
 
                 <h3 class="forum">Introductiekamp Commissie</h3>
@@ -102,14 +103,15 @@
                     - Activiteitencommissie: verantwoordelijk voor het verzorgen van de dagelijkse activiteiten en de
                     dagindeling<br/>
                     - Algemene activiteiten: Verantwoordelijk voor alle taken die betrekking hebben op het gehele kamp,
-                    van de huisjesindeling, tot het regelen van de shirtjes.
+                    van de huisjesindeling tot het regelen van de shirtjes.
                 </p>
 
                 <h3 class="forum">Foto Commissie</h3>
 
                 <p>
                     De fotocommissie is verantwoordelijk voor het visueel in kaart brengen van de evenementen en
-                    activiteiten van de Studievereniging. Jeroen den Otter is onze huisfotograaf. Hij wordt bijgestaan
+                    activiteiten van de Studievereniging. De huisfotograaf van de vereniging is Jeroen den Otter. Hij
+                    wordt bijgestaan
                     door Sanne Wiercx en Océane Steunenberg
                 </p>
             </div>

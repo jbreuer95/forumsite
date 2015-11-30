@@ -20,25 +20,9 @@
             <div class="item active">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6 col-sm-12">
-                            <h1 class="animated slideInDown">The Highland Template</h1>
-
-                            <div class="list">
-                                <ul>
-                                    <li class="animated slideInLeft first delay"><span><i class="fa fa fa-code"></i> Built with Bootstrap 3.</span>
-                                    </li>
-                                    <li class="animated slideInLeft second delay"><span><i class="fa fa-cogs"></i> Easy to Customize.</span>
-                                    </li>
-                                    <li class="animated slideInLeft third delay"><span><i class="fa fa-tablet"></i> Fully Responsive.</span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-6 hidden-sm hidden-xs">
-                            <div class="showcase">
-                                {!! HTML::image('img/iMac.png','...',array('class' => 'iMac animated fadeInDown')) !!}
-                                {!! HTML::image('img/iPad.png','...',array('class' => 'iPad animated fadeInLeft')) !!}
-                                {!! HTML::image('img/iPhone.png','...',array('class' => 'iPhone animated fadeInRight')) !!}
+                        <div class="col-md-12">
+                            <div class="macbook">
+                                {!! HTML::image('img/custom/slider1.jpg','...',array('class' => 'img-responsive')) !!}
                             </div>
                         </div>
                     </div>
@@ -48,21 +32,7 @@
             <div class="item">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6 col-sm-12">
-                            <h1 class="animated slideInDown">Ready-to-go Solutions</h1>
-
-                            <div class="list">
-                                <ul>
-                                    <li class="animated slideInLeft first delay"><span><i class="fa fa-dropbox"></i> Works Out Of the Box.</span>
-                                    </li>
-                                    <li class="animated slideInLeft second delay"><span><i class="fa fa-picture-o"></i> New Isotope Gallery.</span>
-                                    </li>
-                                    <li class="animated slideInLeft third delay"><span><i class="fa fa-book"></i> Complete Documentation.</span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-6 hidden-sm hidden-xs">
+                        <div class="col-md-12">
                             <div class="macbook">
                                 {!! HTML::image('img/macbook.png','...',array('class' => 'img-responsive')) !!}
                             </div>
@@ -151,7 +121,7 @@
             <div class="col-md-8">
                 <div class="block-header">
                     <h2>
-                        <span class="title">Welkom op de website van S.v. Forum</span><span
+                        <span class="title">Welkom op de website van S.<span style="text-transform: lowercase">v</span>. Forum</span><span
                                 class="decoration"></span><span class="decoration"></span><span
                                 class="decoration"></span>
                     </h2>
@@ -170,11 +140,11 @@
                     Ook leggen wij de focus op vele verschillende studie-activiteiten, waaronder bedrijfsbezoeken,
                     workshops, lezingen, en grote evenementen als symposia, Utrecht College Tour sessies, en het
                     jaarlijks terugkerende Junior Marketing Congres. Om ervoor te zorgen dat onze leden het maximale uit
-                    hun studie op de FEM kunnen halen helpen we ze natuurlijk ook met al hun vragen, klachten, en
+                    hun studie op de FEM kunnen halen, helpen we ze natuurlijk ook met al hun vragen, klachten, en
                     problemen, zodat ze zich compleet op hun studie kunnen focussen.
                 </p>
                 <p>
-                    Een lidmaatschap bij S.v. Forum is vrijblijvend, en geheel gratis omdat we door een goed financieel
+                    Een lidmaatschap bij S.v. Forum is vrijblijvend en geheel gratis, omdat we door een goed financieel
                     beleid en een nauwe samenwerking met sponsoren alle activiteiten kunnen bekostigen. Hierdoor kunnen
                     onze leden gratis gebruik maken van alle extra's die S.v. Forum biedt.
                 </p>

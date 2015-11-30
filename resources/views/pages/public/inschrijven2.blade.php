@@ -14,20 +14,20 @@
             <div class="row">
                 <div class="col-md-12">
                     <!-- Remove the .animated class if you don't want things to move -->
-                    <h1 class="animated slideInLeft"><span>Inschrijven S.v. Forum</span></h1>
+                    <h1 class="animated slideInLeft"><span>Inschrijven S.<span style="text-transform: lowercase">v</span>. Forum</span></h1>
                 </div>
             </div>
         </div>
     </div>
     <div class="container">
         <div class="row" style="padding-left: 10px;padding-right: 10px">
-            <h2 class="hl top-zero">Inschrijven S.v. Forum</h2>
+            <h2 class="hl top-zero">Inschrijven S.<span style="text-transform: lowercase">v</span>. Forum</h2>
             <hr>
             <!-- Contact us form -->
             <div class="col-sm-6">
                 <!-- Out Address -->
 
-                <p>Leuk dat je lid wil worden van S.v. Forum. Het enige wat je nu nog moet is hiernaast je gegevens invullen. Dan bieden wij jou in de toekomst:</p>
+                <p>Leuk dat je lid wil worden van S.v. Forum. Het enige wat je nu nog moet is je gegevens invullen. Dan bieden wij jou in de toekomst:</p>
                 <ul>
                     <li>De mogelijkheid om te netwerken</li>
                     <li>Twee keer per maand een borrel in onze stamkroeg</li>
@@ -100,7 +100,7 @@
                     @if ($errors->has('phonenumber')) <p class="help-block">{{ $errors->first('phonenumber') }}</p> @endif
                 </div>
                 <div class="form-group required @if($errors->has('email')) has-error @endif">
-                    {!! Form::label('email','E-mail (geen HU mail) / E-mail (No HU-mail address)',['class' => 'control-label']) !!}
+                    {!! Form::label('email','E-mail (geen HU-mailadres) / E-mail (No HU-mail address)',['class' => 'control-label']) !!}
                     {!! Form::email('email', null, ['class' => 'form-control', 'value' => Input::old('email'),'placeholder' => 'E-mail']) !!}
                     @if ($errors->has('email')) <p class="help-block">{{ $errors->first('email') }}</p> @endif
                 </div>

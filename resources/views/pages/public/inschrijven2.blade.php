@@ -105,7 +105,7 @@
                     @if ($errors->has('email')) <p class="help-block">{{ $errors->first('email') }}</p> @endif
                 </div>
                 <div class="form-group required @if($errors->has('commission')) has-error @endif">
-                    <label for="commission" class="control-label"><a href="/commissies" target="_blank">Commissie (al lid van / geïnteresseerd in) / Commission (current member of /I’m interested in)</a></label>
+                    <label for="commission" class="control-label"><a href="/commissies" target="_blank">Commissie (al lid / geïnteresseerd in) / Commission (current member / I’m interested in)</a></label>
                     {!! Form::select('commission',
                         [
                            'Geen'                                   => 'Geen / None',
@@ -123,7 +123,7 @@
                     @if ($errors->has('commission')) <p class="help-block">{{ $errors->first('commission') }}</p> @endif
                 </div>
                 <div class="form-group required @if($errors->has('dispuut')) has-error @endif">
-                    <label for="dispuut" class="control-label"><a href="/disputen" target="_blank">Dispuut (al lid van / geïnteresseerd in) / Sorority or Fraternity (current member of /I’m interested in)</a></label>
+                    <label for="dispuut" class="control-label"><a href="/disputen" target="_blank">Dispuut (al lid / geïnteresseerd in) / Sorority or Fraternity (current member / I’m interested in)</a></label>
                     {!! Form::select('dispuut',
                         [
                            'Geen' => 'Geen / None',

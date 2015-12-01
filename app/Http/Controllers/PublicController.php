@@ -174,15 +174,13 @@ class PublicController extends Controller {
             'startingstudyyear' => 'required',
             'g-recaptcha-response' => 'required|recaptcha',
         ]);
-
-
-/*        Mail::raw($request->message, function ($message) use($request) {
+        Mail::send('emails.inschrijving', ['email' => $request], function ($message) use ($request) {
             $message->from($request->email, $request->name);
             $message->sender($request->email, $request->name);
             $message->replyTo($request->email, $request->name);
             $message->to('secretaris@svforum.nl');
-            $message->subject('Contact Formulier');
-        });*/
+            $message->subject('Nieuwe inschrijving S.v Forum');
+        });
 
         return redirect('/contact/verstuurd');
     }

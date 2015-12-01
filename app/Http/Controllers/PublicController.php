@@ -126,6 +126,10 @@ class PublicController extends Controller {
         return view('pages.public.verstuurd');
     }
 
+    public function inschrijvingverstuurd(){
+        return view('pages.public.ingeschreven');
+    }
+
     public function inschrijven(){
         return view('pages.public.inschrijven2');
     }
@@ -182,7 +186,7 @@ class PublicController extends Controller {
             $message->subject('Nieuwe inschrijving S.v Forum');
         });
 
-        return redirect('/contact/verstuurd');
+        return redirect('/inschrijven/verstuurd');
     }
 
     public function upload(Request $request)

@@ -50,6 +50,7 @@ Route::post('/contact','PublicController@sendmail');
 Route::get('/agenda','PublicController@agenda');
 
 Route::get('/inschrijven','PublicController@inschrijven');
+Route::get('/inschrijven/verstuurd','PublicController@inschrijvingverstuurd');
 Route::post('/inschrijven','PublicController@postinschrijven');
 
 Route::get('/fotos','PublicController@fotos');

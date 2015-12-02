@@ -17,7 +17,7 @@
     </div>
     <div class="container" >
         <div class="row" style="text-align: center">
-            <a href="http://www.google.com/calendar/render?cid=https://www.google.com/calendar/ical/8ip07vva1vk7s5jho0eogsf7so%40group.calendar.google.com/public/basic.ics" target="_blank" class="btn btn-info" role="button">Agenda Downloaden</a>
+            <a href="http://www.google.com/calendar/render?cid=https://www.google.com/calendar/ical/8ip07vva1vk7s5jho0eogsf7so%40group.calendar.google.com/public/basic.ics" target="_blank" class="btn btn-info" role="button">Agenda Toevoegen</a>
             @if(count($events) != 0)
                 <ul class="timeline">
                     @foreach(array_reverse($events) as $key=>$event)

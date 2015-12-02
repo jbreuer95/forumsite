@@ -14,7 +14,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <!-- Remove the .animated class if you don't want things to move -->
-                    <h1 class="animated slideInLeft"><span>Contact Pagina</span></h1>
+                    <h1 class="animated slideInLeft"><span>Contact</span></h1>
                 </div>
             </div>
         </div>
@@ -68,7 +68,7 @@
                     Telefoon: +31 (0) 88 48 16 347<br />
                     Email: <a href="mailto:secretaris@svforum.nl">secretaris@svforum.nl</a><br />
                     Voor zakelijk contact: <a href="mailto:sponsoring@svforum.nl">sponsoring@svforum.nl</a><br />
-                    Facebook: <a href="https://www.facebook.com/studieverenigingforum" target="_blank"><em>LIKE</em> ons op Facebook!</a><br />
+                    Facebook: <a href="https://www.facebook.com/studieverenigingforum" target="_blank">LIKE ons op Facebook!</a><br />
                 </p>
                 <hr>
                 <!-- Google Maps -->

@@ -128,10 +128,10 @@
                         [
                            'Geen' => 'Geen / None',
                            'Heerendispuut OFORKORTAT' => 'Heerendispuut OFORKORTAT',
-                           'Dames Dispuut In Culmine Solae' => 'Dames Dispuut In Culmine Solae',
-                           'Dames Dispuut Con Garbo' => 'Dames Dispuut Con Garbo',
+                           'Damesdispuut In Culmine Solae' => 'Damesdispuut In Culmine Solae',
+                           'Damesdispuut Con Garbo' => 'Damesdispuut Con Garbo',
                            'Heerendispuut Pulmentum' => 'Heerendispuut Pulmentum',
-                           'Gemengd Dispuut Mistura' => 'Gemengd Dispuut Mistura',
+                           'Dispuut Mistura' => 'Dispuut Mistura',
 
                         ]
                         , null, [ 'class' =>  'form-control',])

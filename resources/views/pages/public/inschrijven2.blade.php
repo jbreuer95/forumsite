@@ -14,14 +14,14 @@
             <div class="row">
                 <div class="col-md-12">
                     <!-- Remove the .animated class if you don't want things to move -->
-                    <h1 class="animated slideInLeft"><span>Inschrijven S.<span style="text-transform: lowercase">v</span>. Forum</span></h1>
+                    <h1 class="animated slideInLeft"><span>Inschrijven Forum</span></h1>
                 </div>
             </div>
         </div>
     </div>
     <div class="container">
         <div class="row" style="padding-left: 10px;padding-right: 10px">
-            <h2 class="hl top-zero">Inschrijven S.<span style="text-transform: lowercase">v</span>. Forum</h2>
+            <h2 class="hl top-zero">Inschrijven Forum</h2>
             <hr>
             <!-- Contact us form -->
             <div class="col-sm-6">

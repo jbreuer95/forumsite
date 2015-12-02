@@ -10,7 +10,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <!-- Remove the .animated class if you don't want things to move -->
-                    <h1 class="animated slideInLeft"><span>Dames Dispuut In Culmine Solae</span></h1>
+                    <h1 class="animated slideInLeft"><a href="/disputen" style="text-decoration:none;color:rgb(102, 102, 102);"><span>Terug</span></a></h1></h1>
                 </div>
             </div>
         </div>
@@ -18,7 +18,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 col">
-                <h2 class="forum" style="margin-top: 10px">Dames Dispuut In Culmine Solae</h2>
+                <h2 class="forum" style="margin-top: 10px">Damesdispuut In Culmine Solae</h2>
                 <hr>
                 <p>
                     Al bijna 25 jaar borrelen, stappen, feesten en eten de meiden van In Culmine Solae (ICS) in het

@@ -18,8 +18,8 @@
     <div class="container">
             <hr>
             <p>Vol trots kan S.v. Forum zeggen dat er vijf disputen bij de vereniging zijn aangesloten. Twee
-                mannelijke disputen, twee vrouwelijke disputen en &eacute;&eacute;n gemengd dispuut.
-                Klik op het logo om meer te weten te komen over de vijf disputen van S.v. Forum:
+                heerendisputen, twee damesdisputen en &eacute;&eacute;n gemengd dispuut.
+                Klik op het logo om meer te weten te komen over de disputen van S.v. Forum:
             </p>
         <hr>
         <div class="row list-inline gallery-list" id="isotope-container">
@@ -43,7 +43,7 @@
                             {!! HTML::image('img/custom/dispuut2-1.jpg','dispuut',array('class' => 'img-responsive','style' => 'height:175px;margin:auto')) !!}
                         </div>
                         <div class="gallery-text">
-                            <div class="gallery-title">Dames Dispuut In Culmine Solae</div>
+                            <div class="gallery-title">Damesdispuut In Culmine Solae</div>
                         </div>
                     </a>
                 </div>
@@ -82,7 +82,7 @@
                             {!! HTML::image('img/custom/dispuut5.jpg','dispuut',array('class' => 'img-responsive','style' => 'height:175px;margin:auto')) !!}
                         </div>
                         <div class="gallery-text">
-                            <div class="gallery-title">Gemengd Dispuut Mistura</div>
+                            <div class="gallery-title">Dispuut Mistura</div>
                         </div>
                     </a>
                 </div>

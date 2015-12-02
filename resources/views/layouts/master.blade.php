@@ -64,10 +64,9 @@
                         <li>{!! HTML::link('/videos', 'Video\'s') !!}</li>
                     </ul>
                 </li>
-                <li>{!! HTML::link('/contact', 'Contact') !!}</li>
-                <!-- Profile links for extra small screens -->
                 <li>{!! HTML::link('/partners-en-sponsoren', 'Sponsoren') !!}</li>
                 <li>{!! HTML::link('/inschrijven', 'Inschrijven') !!}</li>
+                <li>{!! HTML::link('/contact', 'Contact') !!}</li>
             </ul>
         </div>
     </div>
@@ -88,7 +87,7 @@
                 <div class="headline"><h3>Neem contact op</h3></div>
                 <div class="content">
                     <p>
-                        Daltonlaan 500, Kamer 3.19,<br/>
+                        Daltonlaan 500, Kamer 3.19<br/>
                         3584 BK Utrecht<br/>
                         Telefoon: +31 (0) 88 48 16 347<br/>
                         Email: <a href="mailto:secretaris@svforum.nl">secretaris@svforum.nl</a><br/>
@@ -125,7 +124,7 @@
             <!-- Subscribe
             =============== -->
             <div class="col-sm-4">
-                <div class="headline"><h3>Abonneer</h3></div>
+                <div class="headline"><h3>Nieuwsbrief</h3></div>
                 <div class="content">
                     <p>Vul hieronder je e-mailadres in voor onze nieuwsbrief.<br/>We beloven je niet te vaak lastig te
                         vallen!</p>

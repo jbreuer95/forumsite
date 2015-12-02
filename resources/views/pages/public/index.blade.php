@@ -61,7 +61,6 @@
                     <div class="services__item">
                         <div class="services-item__body">
                             <i class="services-item__icon fa fa-briefcase fa-3x"></i>
-
                             <div class="services-item__content">
                                 <p class="services-item__caption">Agenda</p>
                                 <a class="services-item__link" href="/agenda">Ga naar</a>
@@ -121,17 +120,18 @@
             <div class="col-md-8">
                 <div class="block-header">
                     <h2>
-                        <span class="title">Welkom op de website van S.<span style="text-transform: lowercase">v</span>. Forum</span><span
+                        <span class="title">Welkom op de website van Forum</span><span
                                 class="decoration"></span><span class="decoration"></span><span
                                 class="decoration"></span>
                     </h2>
                 </div>
+                <div class="info-board info-board-blue">
+                    <p>{!! HTML::link('/inschrijven', 'Schrijf je nu gratis in') !!} en word lid van d&eacute; studievereniging van de FEM! En like ons op
+                        {!! HTML::link('https://www.facebook.com/studieverenigingforum', 'Facebook!',['target' => '_blank']) !!}</p>
+                </div>
                 {!! HTML::image('img/custom/logofront.png','Logo FORUM',array('class' => 'img-about img-responsive')) !!}
                 <p>
-                    S.v. Forum is d&eacute; studievereniging van de Faculteit Economie & Management (FEM).
-                </p>
-                <p>
-                    We faciliteren een optimale combinatie tussen gezelligheid en studiesucces. Dit doen we door middel
+                    S.v Forum faciliteert een optimale combinatie tussen gezelligheid en studiesucces. Dit doen we door middel
                     van het organiseren van (netwerk)borrels, (thema)feesten, karaoke avonden, en vele andere
                     activiteiten. Daarnaast gaan we ook elk jaar met een leuke groep op wintersport en organiseren we
                     het inmiddels befaamde introductiekamp voor eerstejaars studenten.
@@ -153,11 +153,6 @@
                     dames- en herengenootschappen, hechte vriendengroepen die samen veel leuke dingen doen. Lees
                     hierover meer onder het kopje disputen.
                 </p>
-
-                <div class="info-board info-board-blue">
-                    <p>{!! HTML::link('/inschrijven', 'Schrijf') !!} je nu gratis in en word lid van d&eacute; studievereniging van de Faculteit Economie & Management (FEM)! En like ons
-                        {!! HTML::link('https://www.facebook.com/studieverenigingforum', 'hier',['target' => '_blank']) !!} op Facebook!</p>
-                </div>
             </div>
             <!-- Last updated
                 ================== -->

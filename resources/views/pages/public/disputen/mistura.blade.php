@@ -10,7 +10,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <!-- Remove the .animated class if you don't want things to move -->
-                    <h1 class="animated slideInLeft"><span>Gemengd Dispuut Mistura</span></h1>
+                    <h1 class="animated slideInLeft"><a href="/disputen" style="text-decoration:none;color:rgb(102, 102, 102);"><span>Terug</span></a></h1>
                 </div>
             </div>
         </div>
@@ -18,7 +18,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 col">
-                <h2 class="forum" style="margin-top: 10px">Gemengd Dispuut Mistura</h2>
+                <h2 class="forum" style="margin-top: 10px">Dispuut Mistura</h2>
                 <hr>
                 <p>Mistura is het eerste onafhankelijke gemengde dispuut in Utrecht. Een groep leden van
                     Studievereniging Forum kwam met het initiatief om een gemengd dispuut op te richten waar mannen en

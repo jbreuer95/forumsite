@@ -97,10 +97,10 @@
                 <div class="gallery__item">
                     <a href="http://www.joho.org/nl" target="_blank">
                         <div class="gallery-thumbnail">
-                            {!! HTML::image('img/custom/Joho.jpg','dispuut',array('class' => 'img-responsive','style' => 'height:175px;margin:auto')) !!}
+                            {!! HTML::image('img/custom/Joho.jpg','Joho',array('class' => 'img-responsive','style' => 'height:175px;margin:auto')) !!}
                         </div>
                         <div class="gallery-text">
-                            <div class="gallery-title">Joho</div>
+                            <div class="gallery-title">JoHo</div>
                         </div>
                     </a>
                 </div>

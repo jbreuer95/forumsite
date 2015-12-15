@@ -14675,7 +14675,22 @@ html.swipebox-html.swipebox-touch {
 
 #hp-slider {
   height: 480px;
-  background: url(../img/custom/background.jpg) no-repeat center center; }
+  background: url(../img/custom/background2.jpg) no-repeat center center;
+    background-size: cover;
+    background-position-y: -150px;
+}
+
+@media (max-width: 1175px) {
+    #hp-slider{
+        background-position-y: -100px;
+    }
+}
+
+@media (max-width: 800px) {
+    #hp-slider{
+        background-position-y: -50px;
+    }
+}
 
 p {
   line-height: 1.3;

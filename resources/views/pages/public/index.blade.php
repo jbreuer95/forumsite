@@ -18,51 +18,46 @@
 
                 <div class="services">
                     <div class="services__item">
-                        <div class="services-item__body">
-                            <i class="services-item__icon fa fa-briefcase fa-3x"></i>
+                        <div class="services-item__body" id="agenda" onclick="f_page(this.id)">
+                            <i class="services-item__icon fa fa-calendar fa-3x"></i>
                             <div class="services-item__content">
                                 <p class="services-item__caption">Agenda</p>
-                                <a class="services-item__link" href="/agenda">Ga naar</a>
                             </div>
                         </div>
                     </div>
                     <div class="services__item">
-                        <div class="services-item__body">
-                            <i class="services-item__icon fa fa-cloud-upload fa-3x"></i>
+                        <div class="services-item__body" id="commissies" onclick="f_page(this.id)">
+                            <i class="services-item__icon fa fa-users fa-3x"></i>
 
                             <div class="services-item__content">
                                 <p class="services-item__caption">Commissies</p>
-                                <a class="services-item__link" href="/commissies">Ga naar</a>
                             </div>
                         </div>
                     </div>
                     <div class="services__item">
-                        <div class="services-item__body">
-                            <i class="services-item__icon fa fa-laptop fa-3x"></i>
+                        <div class="services-item__body" id="nieuws" onclick="f_page(this.id)">
+                            <i class="services-item__icon fa fa-newspaper-o fa-3x"></i>
 
                             <div class="services-item__content">
                                 <p class="services-item__caption">Nieuws</p>
-                                <a class="services-item__link" href="/nieuws">Ga naar</a>
                             </div>
                         </div>
                     </div>
                     <div class="services__item">
-                        <div class="services-item__body">
-                            <i class="services-item__icon fa fa-gears fa-3x"></i>
+                        <div class="services-item__body" id="disputen" onclick="f_page(this.id)">
+                            <i class="services-item__icon fa fa-users fa-3x"></i>
 
                             <div class="services-item__content">
                                 <p class="services-item__caption">Disputen</p>
-                                <a class="services-item__link" href="/disputen">Ga naar</a>
                             </div>
                         </div>
                     </div>
                     <div class="services__item">
-                        <div class="services-item__body">
-                            <i class="services-item__icon fa fa-compass fa-3x"></i>
+                        <div class="services-item__body" id="fotos" onclick="f_page(this.id)">
+                            <i class="services-item__icon fa fa-picture-o fa-3x"></i>
 
                             <div class="services-item__content">
                                 <p class="services-item__caption">Foto's</p>
-                                <a class="services-item__link" href="/fotos">Ga naar</a>
                             </div>
                         </div>
                     </div>
@@ -119,3 +114,11 @@
         </div>
     </div>
 @stop
+
+@section('js')
+<script>
+    function f_page($page){
+        window.location.replace('/'+$page);
+    }
+</script>
+@endsection

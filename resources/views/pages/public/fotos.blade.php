@@ -17,6 +17,10 @@
     </div> <!-- / .section-header -->
 
     <div class="container">
+        <p>Bekijk hieronder de foto's van de evenementen.<br />
+            Deze foto's geven een duidelijk beeld van de evenementen en activiteiten van S.v. Forum.<br />
+            Klik op het album om naar het juiste evenement te gaan.</p>
+        <hr>
         <div class="row gallery-list gallery-list-bubbles" id="isotope-container">
             <div class="col-sm-4 col-md-3 isotope-item cat-1 cat-2 cat-4">
                 <div class="gallery__item">

@@ -18,7 +18,9 @@
     <div class="container">
         <hr>
             <p>
-                Voor aanvang van elk college jaar hebben we een geweldig introductiekamp. Bekijk hier de films van intro 2012 en 2013!
+                Bekijk hieronder de video’s van de evenementen.<br />
+                Deze video’s geven een duidelijk beeld van de evenementen en activiteiten van S.v. Forum.<br />
+                Klik op het album om naar het juiste evenement te gaan.
             </p>
         <hr>
         <div class="row gallery-list gallery-list-bubbles" id="isotope-container">

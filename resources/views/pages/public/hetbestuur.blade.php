@@ -89,7 +89,7 @@
                             hoop ik dat het bestuur zo efficiënt mogelijk aan de slag kan om jullie een geweldig jaar te
                             kunnen bieden!<br><br>
 
-                            Voor alle vragen kan je bij mij terecht
+                            Voor alle vragen kan je bij mij terecht.<br />
                             Ook ben ik vanaf januari vaak te vinden in ons kantoor (3.19) op Daltonlaan 500.
                             <br/>
                             {!! HTML::link('mailto:secretaris@svforum.nl', 'secretaris@svforum.nl') !!}

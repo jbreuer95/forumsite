@@ -14,7 +14,8 @@
         "tinify/tinify": "^1.1",
         "league/flysystem-aws-s3-v3": "^1.0",
         "cviebrock/image-validator": "^2.0",
-        "stevebauman/calendar-helper": "^0.1.5"
+        "stevebauman/calendar-helper": "^0.1.5",
+        "backup-manager/laravel": "dev-master"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

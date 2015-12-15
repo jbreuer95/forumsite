@@ -151,6 +151,7 @@ return [
         Laracasts\Flash\FlashServiceProvider::class,
         Cviebrock\ImageValidator\ImageValidatorServiceProvider::class,
         Stevebauman\CalendarHelper\CalendarHelperServiceProvider::class,
+        BackupManager\Laravel\Laravel5ServiceProvider::class,
 
     ],
 

@@ -32,6 +32,9 @@
                             {{--<img class="pull-right img-responsive blog-img" alt="Blog Image" src="{{$article->pictureurl}}">--}}
                             {!! $article->body !!}
                         </div>
+                        <div>
+                            <img class="pull-right img-responsive blog-img" alt="Blog Image" src="{{$article->pictureurl}}">
+                        </div>
                         <hr>
                             <a href="{{action('PublicController@article', [$article->slug])}}" style="text-align: right"><p>Lees meer <i class="fa fa-forward"></i></p> </a>
                         <hr>

@@ -14884,6 +14884,12 @@ footer .headline h3 {
         }
 }
 
+@media (max-width: 767px) {
+    .timeline-block {
+        padding-left: 20px;
+    }
+}
+
 /*!
  * Datetimepicker for Bootstrap 3
  * version : 4.17.37

@@ -257,3 +257,9 @@ footer .headline h3 {
             right: auto;
         }
 }
+
+@media (max-width: 767px) {
+    .timeline-block {
+        padding-left: 20px;
+    }
+}

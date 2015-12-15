@@ -29,11 +29,8 @@
                         </ul>
                         <hr>
                         <div style="max-height: 200px;overflow-y: hidden">
-                            {{--<img class="pull-right img-responsive blog-img" alt="Blog Image" src="{{$article->pictureurl}}">--}}
-                            {!! $article->body !!}
-                        </div>
-                        <div>
                             <img class="pull-right img-responsive blog-img" alt="Blog Image" src="{{$article->pictureurl}}">
+                            {!! $article->body !!}
                         </div>
                         <hr>
                             <a href="{{action('PublicController@article', [$article->slug])}}" style="text-align: right"><p>Lees meer <i class="fa fa-forward"></i></p> </a>

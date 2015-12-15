@@ -17,7 +17,6 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-sm-8">
                 <div class="timeline-block">
                     <!-- First blog post -->
                     @if(count($news) != 0)
@@ -57,25 +56,6 @@
                 <section>
 
                 </section>
-            </div>
-            <div class="col-sm-4">
-                <!-- Out Address -->
-                <h4>Ons adres</h4>
-                <hr>
-                <p>
-                    Daltonlaan 500, Kamer 3.19,<br />
-                    3584 BK Utrecht<br />
-                    Telefoon: +31 (0) 88 48 16 347<br />
-                    Email: <a href="mailto:secretaris@svforum.nl">secretaris@svforum.nl</a><br />
-                    Voor zakelijk contact: <a href="mailto:sponsoring@svforum.nl">sponsoring@svforum.nl</a><br />
-                    Facebook: <a href="https://www.facebook.com/studieverenigingforum" target="_blank"><em>LIKE</em> ons op Facebook!</a><br />
-                </p>
-                <hr>
-                <!-- Google Maps -->
-                <h4>Google Maps</h4>
-                <hr>
-                <div style="text-decoration:none; overflow:hidden; height:300px; width:350px; max-width:100%;"><div id="gmap_canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Daltonlaan+500,+Utrecht,+Nederland&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe></div><a class="embed-map-code" href="https://www.bootstrapskins.com" id="enable-map-info">bootstrap-based designers</a><style scoped></style></div>
-            </div>
         </div>
     </div>
 @stop

@@ -22,9 +22,9 @@
 
                 <p>
                     Naast het bestuur van de vereniging zijn er ook verschillende commissies nodig voor de organisatie.
-                    Commissies worden gevuld door de meeste actieve leden binnen de vereniging.
+                    Commissies worden gevuld door de meest actieve leden binnen de vereniging.
                     Mocht je interesse hebben om plaats te nemen in een commissie, en een wezenlijke bijdrage te leveren
-                    aan het jaar van S.v. Forum. Neem dan contact op met de secretaris via: <a
+                    aan het jaar van S.v. Forum, neem dan contact op met de secretaris via: <a
                             href="mailto:secretaris@svforum.nl">secretaris@svforum.nl</a><br/>
                     Het bestuur '15-'16 heeft besloten dit jaar de volgende commissies op te zetten.
 

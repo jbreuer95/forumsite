@@ -96,7 +96,7 @@
                         </p>
                     </div>
                     <div class="member-left">
-                        {!! HTML::image('img/custom/gerrit.jpg','Mariëlle van Doorn',array('class' => 'left')) !!}
+                        {!! HTML::image('img/custom/marielle.jpg','Mariëlle van Doorn',array('class' => 'left')) !!}
                         <h4>Mariëlle van Doorn</h4>
 
                         <p class="position">Penningmeester</p>
@@ -112,7 +112,7 @@
                         </p>
                     </div>
                     <div class="member-right">
-                        {!! HTML::image('img/custom/gerrit.jpg','Bibi Klein Nagelvoort',array('class' => 'right')) !!}
+                        {!! HTML::image('img/custom/bibi.jpg','Bibi Klein Nagelvoort',array('class' => 'right')) !!}
                         <h4>Bibi Klein Nagelvoort</h4>
 
                         <p class="position">Commissaris Feesten en Activiteiten:</p>
@@ -137,7 +137,7 @@
                         </p>
                     </div>
                     <div class="member-left">
-                        {!! HTML::image('img/custom/gerrit.jpg','Sanne Wiercx',array('class' => 'left')) !!}
+                        {!! HTML::image('img/custom/sanne.jpg','Sanne Wiercx',array('class' => 'left')) !!}
                         <h4>Sanne Wiercx</h4>
 
                         <p class="position">Commissaris Educatie</p>
@@ -159,7 +159,7 @@
                         </p>*
                     </div>
                     <div class="member-right">
-                        {!! HTML::image('img/custom/gerrit.jpg','Bas Degenhart',array('class' => 'right')) !!}
+                        {!! HTML::image('img/custom/bas.jpg','Bas Degenhart',array('class' => 'right')) !!}
                         <h4>Bas Degenhart</h4>
 
                         <p class="position">Commissaris Acquisitie & PR</p>

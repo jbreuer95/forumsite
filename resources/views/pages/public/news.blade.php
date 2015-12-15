@@ -30,7 +30,7 @@
                         <hr>
                         <p class="blog-text" style="min-height: 150px">
                             <img class="pull-right img-responsive blog-img" alt="Blog Image" src="{{$article->pictureurl}}">
-                            {!! Str::words(strip_tags($article->body), 55, '...') !!}
+                            {!! Str::words(strip_tags($article->body), 100, '...') !!}
                         </p>
                         <hr>
                             <a href="{{action('PublicController@article', [$article->slug])}}" style="text-align: right"><p>Lees meer <i class="fa fa-forward"></i></p> </a>

@@ -37,6 +37,7 @@
                         feesten met andere studieverenigingen van de HU)
                     </li>
                     <li>De mogelijkheid om als mentor mee te gaan op het leukste introductiekamp van de HU</li>
+                    <li>Educatieve evenementen, zoals gastsprekers en bijlessen</li>
                     <li>De mogelijkheid om lid te worden van een commissie of dispuut</li>
                     <li>Een gratis lidmaatschap</li>
                 </ul>
@@ -52,6 +53,7 @@
                         other study associations) first
                     </li>
                     <li>The possibility to become a mentor at the best Introduction Camp of the HU</li>
+                    <li>Educational events, like guest lectures and tutoring</li>
                     <li>The option to become a member of a committee, a sorority or a fraternity</li>
                     <li>A free membership</li>
                 </ul>
@@ -162,7 +164,24 @@
                 </div>
                 <div class="form-group required @if($errors->has('study')) has-error @endif">
                     {!! Form::label('study','Studie / Study',['class' => 'control-label']) !!}
-                    {!! Form::text('study', null, ['class' => 'form-control', 'value' => Input::old('study'),'placeholder' => 'Studie / Study']) !!}
+                    {!! Form::select('study',
+                        [
+                            null => '',
+                            'Accountancy' => 'Accountancy',
+                            'Bedrijseconomie' => 'Bedrijseconomie',
+                            'Business Management' => 'Business Management',
+                            'Commerciële Economie' => 'Commerciële Economie',
+                            'Financial Services Management' => 'Financial Services Management',
+                            'International Business and Languages' => 'International Business and Languages',
+                            'International Business & Management Studies' => 'International Business & Management Studies',
+                            'International Marketing Management' => 'International Marketing Management',
+                            'Logistiek en Economie' => 'Logistiek en Economie',
+                            'Bedrijfskunde MER' => 'Bedrijfskunde MER',
+                            'Small Business & Retail Management' => 'Small Business & Retail Management',
+                            'Overig / Non of the above' => 'Overig / Non of the above',
+                        ]
+                        , null, [ 'class' =>  'form-control',])
+                    !!}
                     @if ($errors->has('study')) <p class="help-block">{{ $errors->first('study') }}</p> @endif
                 </div>
                 <div class="form-group required @if($errors->has('startingstudyyear')) has-error @endif">

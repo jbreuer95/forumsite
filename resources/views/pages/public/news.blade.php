@@ -28,9 +28,9 @@
                             <li><i class="fa fa-calendar"></i> {!! Carbon\Carbon::parse($article->created_at)->diffForHumans() !!}</li>
                         </ul>
                         <hr>
-                        <p class="blog-text" style="min-height: 150px">
+                        <p class="blog-text" style="max-height: 200px;overflow-y: hidden">
                             <img class="pull-right img-responsive blog-img" alt="Blog Image" src="{{$article->pictureurl}}">
-                            {!! Str::words(strip_tags($article->body), 100, '...') !!}
+                            {!! $article->body !!}
                         </p>
                         <hr>
                             <a href="{{action('PublicController@article', [$article->slug])}}" style="text-align: right"><p>Lees meer <i class="fa fa-forward"></i></p> </a>

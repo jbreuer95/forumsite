@@ -74,7 +74,7 @@
             <div class="col-md-8">
                 <div class="block-header">
                     <h2>
-                        <span class="title">Welkom op de website van Forum</span><span
+                        <span class="title">Welkom op de website van studievereniging Forum</span><span
                                 class="decoration"></span><span class="decoration"></span><span
                                 class="decoration"></span>
                     </h2>
@@ -85,7 +85,7 @@
                 </div>
                 {!! HTML::image('img/custom/logofront.png','Logo FORUM',array('class' => 'img-about img-responsive')) !!}
                 <p>
-                    S.v Forum faciliteert een optimale combinatie tussen gezelligheid en studiesucces. Dit doen we door middel
+                    S.v. Forum faciliteert een optimale combinatie tussen gezelligheid en studiesucces. Dit doen we door middel
                     van het organiseren van (netwerk)borrels, (thema)feesten, karaoke avonden, en vele andere
                     activiteiten. Daarnaast gaan we ook elk jaar met een leuke groep op wintersport en organiseren we
                     het inmiddels befaamde introductiekamp voor eerstejaars studenten.

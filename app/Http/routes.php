@@ -15,9 +15,7 @@ Route::get('/', 'PublicController@index');
 
 Route::get('home', 'HomeController@index');
 
-Route::get('/hetbestuur', 'PublicController@bestuur');
-
-Route::get('/denaam', 'PublicController@denaam');
+Route::get('/de-naam', 'PublicController@denaam');
 
 Route::get('/missie-en-visie', 'PublicController@menv');
 
@@ -25,7 +23,7 @@ Route::get('/commissies', 'PublicController@commissies');
 
 Route::get('/statuten', 'PublicController@statuten');
 
-Route::get('/hetbestuur', 'PublicController@hetbestuur');
+Route::get('/het-bestuur', 'PublicController@hetbestuur');
 
 Route::get('/disputen', 'PublicController@disputen');
 

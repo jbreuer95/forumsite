@@ -68,7 +68,7 @@
                     Telefoon: +31 (0) 88 48 16 347<br />
                     Email: <a href="mailto:secretaris@svforum.nl">secretaris@svforum.nl</a><br />
                     Voor zakelijk contact: <a href="mailto:sponsoring@svforum.nl">sponsoring@svforum.nl</a><br />
-                    Kvk: 55878431<br />
+                    KvK nummer: 55878431<br />
                     Facebook: <a href="https://www.facebook.com/studieverenigingforum" target="_blank">LIKE ons op Facebook!</a><br />
                 </p>
                 <hr>

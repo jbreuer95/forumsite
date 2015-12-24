@@ -59,9 +59,9 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Wie zijn wij? <b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li>{!! HTML::link('/denaam', 'De naam') !!}</li>
+                        <li>{!! HTML::link('/de-naam', 'De naam') !!}</li>
                         <li>{!! HTML::link('/missie-en-visie', 'Missie en visie') !!}</li>
-                        <li>{!! HTML::link('/hetbestuur', 'Het bestuur') !!}</li>
+                        <li>{!! HTML::link('/het-bestuur', 'Het bestuur') !!}</li>
                         <li>{!! HTML::link('/commissies', 'Commissies') !!}</li>
                         <li>{!! HTML::link('/disputen', 'Disputen') !!}</li>
                         <li>{!! HTML::link('/statuten', 'Statuten') !!}</li>
@@ -108,7 +108,7 @@
                         Telefoon: +31 (0) 88 48 16 347<br/>
                         Email: <a href="mailto:secretaris@svforum.nl">secretaris@svforum.nl</a><br/>
                         Voor zakelijk contact: <a href="mailto:sponsoring@svforum.nl">sponsoring@svforum.nl</a><br/>
-                        Kvk: 55878431
+                        KvK nummer: 55878431
                     </p>
                 </div>
             </div>

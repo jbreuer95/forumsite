@@ -14675,7 +14675,7 @@ html.swipebox-html.swipebox-touch {
 
 #hp-slider {
   height: 480px;
-  background: url(../img/custom/background.png) no-repeat center center;
+  background: url(../img/custom/backgroundsmall.png) no-repeat center center;
 }
 
 p {
@@ -14895,7 +14895,7 @@ footer .headline h3 {
 @media only screen and (max-width : 480px) {
     #hp-slider {
         height: 370px;
-        background: url(../img/custom/backgroundsmall.png) no-repeat center center;
+        background: url(../img/custom/background.png) no-repeat center center;
     }
 }
 /*!

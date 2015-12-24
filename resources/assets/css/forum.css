@@ -264,3 +264,11 @@ footer .headline h3 {
         padding-left: 20px;
     }
 }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    #hp-slider {
+        height: 370px;
+        background: url(../img/custom/backgroundsmall.png) no-repeat center center;
+    }
+}

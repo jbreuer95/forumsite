@@ -14891,6 +14891,13 @@ footer .headline h3 {
     }
 }
 
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    #hp-slider {
+        height: 370px;
+        background: url(../img/custom/backgroundsmall.png) no-repeat center center;
+    }
+}
 /*!
  * Datetimepicker for Bootstrap 3
  * version : 4.17.37

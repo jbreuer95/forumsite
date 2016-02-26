@@ -28,8 +28,7 @@
                 <!-- Out Address -->
 
                 <p>Leuk dat je lid wilt worden van S.v. Forum. Het enige wat je nu nog hoeft te doen is je gegevens
-                    invullen. Dan bieden wij jou in de toekomst:” in plaats van “Leuk dat je lid wil worden van S.v.
-                    Forum. Het enige wat je nu nog moet is je gegevens invullen. Dan bieden wij jou in de toekomst:</p>
+                    invullen. Dan bieden wij jou in de toekomst:</p>
                 <ul>
                     <li>De mogelijkheid om te netwerken</li>
                     <li>Twee keer per maand een borrel in onze stamkroeg</li>
@@ -43,9 +42,7 @@
                 </ul>
                 <hr>
                 <p>Nice of you to become a member of S.v. Forum. The only thing left for you to do is fill out your
-                    information. Once you are a member we will offer you the following:” in plaats van “Nice of you to
-                    become a member of S.v. Forum. The only thing left is to fill in your information. We will offer you
-                    the following things once you are a member:</p>
+                    information. Once you are a member we will offer you the following:</p>
                 <ul>
                     <li>The possibility to network</li>
                     <li>A gathering in our local bar, twice a month</li>

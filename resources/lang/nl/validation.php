@@ -107,9 +107,6 @@ return [
             'required' => 'Email is verplicht.',
             'email' => 'Vul a.u.b een valide emailadres in',
         ],
-        'body' => [
-            'required' => 'Nieuwsbericht is verplicht.',
-        ],
         'slug' => [
             'required' => 'Slug is verplicht.',
             'min' => 'Slug moet minimaal :min karakters zijn.',

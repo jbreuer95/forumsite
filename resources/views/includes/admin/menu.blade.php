@@ -18,9 +18,9 @@
                 <li>
                     <a href="{{action('NewsController@index')}}" class="{{ set_active(['admin/news*']) }}"><i class="fa fa-newspaper-o fa-fw"></i> Nieuwsberichten</a>
                 </li>
-            {{--    <li>
-                    <a href="{{action('EventsController@index')}}" class="{{ set_active(['admin/events*']) }}"><i class="fa fa-calendar fa-fw"></i> Agenda</a>
-                </li>--}}
+                <li>
+                    <a href="{{action('VacanciesController@index')}}" class="{{ set_active(['admin/vacancies*']) }}"><i class="fa fa-money fa-fw"></i> Vactures</a>
+                </li>
 {{--                <li>
                     <a href="#"><i class="fa fa-beer fa-fw"></i> Studieverenigingen</a>
                 </li>--}}

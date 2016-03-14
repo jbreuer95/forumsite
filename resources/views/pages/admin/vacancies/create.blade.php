@@ -1,26 +1,26 @@
 @extends('layouts.admin.mastermenu')
 
 @section('mtitle')
-    Forum - Nieuwsberichten
+    Forum - Vacatures
 @stop
 
 @section('mcontent')
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Nieuwsbericht Toevoegen</h1>
+                <h1 class="page-header">Vacature Toevoegen</h1>
             </div>
         </div>
         <div class="row">
-            {!! Form::open(['url' => 'admin/news']) !!}
-            @include('includes.admin.newsform',['submitButtonText' => 'Opslaan'])
+            {!! Form::open(['url' => 'admin/vacancies']) !!}
+            @include('includes.admin.vacancyform',['submitButtonText' => 'Opslaan'])
             {!! Form::close() !!}
         </div>
     </div>
 @stop
 
 @section('mjs')
-    @include('includes.admin.fileupload', ['img_thumb' => 'img-thumb', 'picture' => 'pictureurl', 'thumbnail' => 'thumbnailurl', 'link' => '/admin/upload'])
+    @include('includes.admin.fileupload', ['img_thumb' => 'img-thumb', 'picture' => 'picture', 'thumbnail' => 'thumbnail', 'link' => '/admin/upload'])
     @include('includes.admin.redactor')
     @include('includes.admin.slugify', ['slug' => 'slug', 'title' => 'title'])
-@stop
+@stop.

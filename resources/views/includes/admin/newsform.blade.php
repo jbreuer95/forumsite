@@ -24,12 +24,11 @@
             {!! Form::label('pictureurl','Foto',['class' => 'control-label']) !!}
             <div>Word geschaald naar 600x315</div>
             <div>
-
-                {!! Form::hidden('pictureurl', null, ['class' => 'form-control', 'value' => Input::old('pictureurl')]) !!}
-                {!! Form::hidden('thumbnailurl', null, ['id' => 'thumbnailurl','class' => 'form-control', 'value' => Input::old('thumbnailurl')]) !!}
+                <input id="pictureurl" class="form-control" name="pictureurl" type="hidden" value="{{ isset($news) ? $news->pictureurl : old('picture', 'http://svforum.s3.eu-central-1.amazonaws.com/fotos/nieuws/forum561d0b7ba2a117.80797838.png') }}">
+                <input id="thumbnailurl" class="form-control" name="thumbnailurl" type="hidden" value="{{ isset($news) ? $news->thumbnailurl : old('thumbnail', 'http://svforum.s3.eu-central-1.amazonaws.com/fotos/nieuws/thumbnails/forumThumb.png') }}">
                 <img id="img-thumb" class="user size-lg img-thumbnail"
                      style="height: 315px;width: 600px;@if($errors->has('pictureurl'))border-color: #a94442;@endif"
-                     src="{{ isset($news) ? $news->pictureurl : 'http://svforum.s3.eu-central-1.amazonaws.com/fotos/nieuws/forum561d0b7ba2a117.80797838.png' }}">
+                     src="{{ isset($news) ? $news->pictureurl : old('pictureurl', 'http://svforum.s3.eu-central-1.amazonaws.com/fotos/nieuws/forum561d0b7ba2a117.80797838.png') }}">
                 @if ($errors->has('pictureurl')) <p class="help-block"
                                                  style="color: #a94442;">{{ $errors->first('pictureurl') }}</p> @endif
             </div>

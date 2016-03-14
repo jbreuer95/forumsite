@@ -74,6 +74,7 @@ Route::patch('admin/edit/upload', 'AdminController@upload');
 Route::post('image/upload', 'PublicController@upload');
 
 Route::resource('admin/news','NewsController');
+Route::resource('admin/vacancies','VacanciesController');
 Route::get('/nieuws/', function(){
     return redirect('/nieuws/pagina-1');
 });

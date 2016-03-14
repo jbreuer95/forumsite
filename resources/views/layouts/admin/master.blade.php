@@ -26,9 +26,18 @@
 <body>
 
 @yield('content')
-
 {!! HTML::script('js/admin-all.js') !!}
-
+@if(Session::has('flash_notification.message'))
+    <script>
+        $(function() {
+            @if(Session::get('flash_notification.level') == 'danger')
+                toastr.error('{{ Session::get('flash_notification.message') }}');
+            @else
+                toastr.{{ Session::get('flash_notification.level') }}('{{ Session::get('flash_notification.message') }}');
+            @endif
+        });
+    </script>
+@endif
 @yield('js')
 
 </body>

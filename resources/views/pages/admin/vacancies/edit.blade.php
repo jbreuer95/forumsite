@@ -21,7 +21,7 @@
 @stop
 
 @section('mjs')
-    @include('includes.admin.fileupload', ['type' => 'PATCH', 'img_thumb' => 'img-thumb', 'picture' => 'picture', 'thumbnail' => 'thumbnail', 'link' => '/admin/edit/upload'])
+    @include('includes.admin.fileupload', ['img_thumb' => 'img-thumb', 'picture' => 'picture', 'thumbnail' => 'thumbnail', 'link' => '/admin/edit/upload'])
     @include('includes.admin.redactor')
     @include('includes.admin.slugify', ['slug' => 'slug', 'title' => 'title'])
 @stop

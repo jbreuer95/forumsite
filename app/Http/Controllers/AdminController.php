@@ -24,6 +24,7 @@ class AdminController extends Controller
     {
 
         $file = $request->file('file');
+        \Log::info($file);
 
         $v = Validator::make(
             $request->all(),

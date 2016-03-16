@@ -20,7 +20,7 @@
 @stop
 
 @section('mjs')
-    @include('includes.admin.fileupload', ['img_thumb' => 'img-thumb', 'picture' => 'pictureurl', 'thumbnail' => 'thumbnailurl', 'link' => '/admin/upload'])
+    @include('includes.admin.fileupload', ['type' => 'POST', 'img_thumb' => 'img-thumb', 'picture' => 'pictureurl', 'thumbnail' => 'thumbnailurl', 'link' => '/admin/upload'])
     @include('includes.admin.redactor')
     @include('includes.admin.slugify', ['slug' => 'slug', 'title' => 'title'])
 @stop

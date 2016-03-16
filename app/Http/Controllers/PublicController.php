@@ -4,6 +4,7 @@ namespace Forum\Http\Controllers;
 
 use Carbon\Carbon;
 use Forum\News;
+use Forum\Vacancy;
 use Illuminate\Http\Request;
 use Mail;
 use Response;
@@ -17,6 +18,11 @@ class PublicController extends Controller {
 	{
 		return view('pages.public.index',compact('news'));
 	}
+
+    public function vacancies(){
+        $vacancies =  Vacancy::all();
+        return view('pages.public.vacatures', compact('vacancies'));
+    }
 
     public function news($page)
     {

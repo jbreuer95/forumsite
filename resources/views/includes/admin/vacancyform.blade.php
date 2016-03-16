@@ -1,12 +1,12 @@
 <div class="col-lg-6">
     <div class="form-group required @if($errors->has('type')) has-error @endif">
         {!! Form::label('type','Type',['class' => 'control-label']) !!}
-        {!! Form::select('type', Config::get('enums.vacancyTypes'), Input::old('type'), ['class' => 'form-control']) !!}
+        {!! Form::select('type', Config::get('enums.vacancyTypes'), old('type'), ['class' => 'form-control']) !!}
         @if ($errors->has('type')) <p class="help-block">{{ $errors->first('type') }}</p> @endif
     </div>
     <div class="form-group required @if($errors->has('title')) has-error @endif">
         {!! Form::label('title','Titel',['class' => 'control-label']) !!}
-        {!! Form::text('title', Input::old('title'), ['class' => 'form-control']) !!}
+        {!! Form::text('title', old('title'), ['class' => 'form-control']) !!}
         @if ($errors->has('title')) <p class="help-block">{{ $errors->first('title') }}</p> @endif
     </div>
     <div class="form-group @if($errors->has('slug')) has-error @endif">

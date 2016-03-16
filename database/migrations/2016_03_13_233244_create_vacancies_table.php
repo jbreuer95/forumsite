@@ -14,7 +14,7 @@ class CreateVacanciesTable extends Migration
     {
         Schema::create('vacancies', function (Blueprint $table) {
             $table->increments('id');
-            $table->enum('type', ['stage', 'bijbaan', 'afstuderen', 'baan', 'traineeship']);
+            $table->enum('type', ['stage', 'bijbaan', 'afstuderen', 'baan', 'traineeship', 'stage']);
             $table->string('title');
             $table->string('picture');
             $table->text('body');

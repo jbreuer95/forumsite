@@ -2,9 +2,10 @@
 
 return [
     'vacancyTypes' => [
-        'BIJBAAN' => 'Bijbaan',
-        'AFSTUDEREN' => 'Afstuderen',
-        'BAAN' => 'Baan',
-        'TRAINEESHIP' => 'Traineeship',
+        'bijbaan' => 'Bijbaan',
+        'afstuderen' => 'Afstuderen',
+        'baan' => 'Baan',
+        'traineeship' => 'Traineeship',
+        'stage' => 'Stage',
     ]
 ];

@@ -47,6 +47,7 @@ elixir(function(mix) {
         'jquery.swipebox.js',
         'moment.min.js',
         'bootstrap-datetimepicker.min.js',
+        'jquery.mixitup.min.js',
         'nl.js'
     ],'public/js/all.js');
 

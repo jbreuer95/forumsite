@@ -57,6 +57,7 @@ Route::get('/fotos/wintersport2014','PublicController@wintersport2014');
 Route::get('/fotos/introductiekamp2013','PublicController@introductiekamp2013');
 
 Route::get('/videos','PublicController@videos');
+Route::get('/vacatures','PublicController@vacancies');
 
 Route::get('/admin', 'AdminController@index');
 
@@ -74,7 +75,7 @@ Route::patch('admin/edit/upload', 'AdminController@upload');
 Route::post('image/upload', 'PublicController@upload');
 
 Route::resource('admin/news','NewsController');
-Route::resource('admin/vacancies','VacanciesController');
+Route::resource('admin/vacancies','VacanciesController', ['names' => ['show' => 'vacancy.show']]);
 Route::get('/nieuws/', function(){
     return redirect('/nieuws/pagina-1');
 });

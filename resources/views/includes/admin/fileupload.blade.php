@@ -2,7 +2,7 @@
     $(function () {
         $('#fileupload').fileupload({
             url: '{{ url() }}{{$link}}?_token=' + '{{ csrf_token() }}',
-            type: '{{$type}},
+            type: '{{$type}}',
             dataType: 'json',
             start: function () {
                 uploading.show();

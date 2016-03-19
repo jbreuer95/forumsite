@@ -365,24 +365,32 @@ a.deco-none {
     text-decoration: none;
 }
 
-.media-body{
-    padding: 0 15px 15px;
+.vacancy-list .mix{
+    display: none;
 }
 
 /*.media:hover .media-heading {
     margin-top: 5px;
     margin-bottom: 0;
 }*/
-.media:hover {
+.media-vacancy:hover {
     background-color: lightgrey;
 }
 
-.media {
-    border-radius: 15px;
-    overflow-y: hidden;
-    height: 150px;
+.by-author {
+    font-weight: normal;
+    line-height: 1;
+    color: #999999;
 }
 
-.media-list .mix{
-    display: none;
+.media-object-vacancy {
+    border-radius: 15px;
+}
+.media-vacancy {
+    border-radius: 15px;
+    overflow-y: hidden;
+}
+
+.media-body-vacancy {
+    padding: 15px;
 }

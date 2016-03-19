@@ -23,24 +23,23 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
-                <ul class="media-list main-list">
+            <div class="col-md-12 vacancy-list">
                     @if(count($vacancies) != 0)
                         @foreach($vacancies as $vacancy)
-                            <li class="media mix {{$vacancy->type}}">
-                                <a href="{{ route('vacancy.show') }}" class="deco-none">
-                                    {!! HTML::image($vacancy->picture, $vacancy->title,['class' => 'media-object-vacancy pull-left']) !!}
-                                    <div class="media-body" href="{{ route('vacancy.show') }}">
-                                        <h3 class="media-heading forum">{{ $vacancy->title }}</h3>
-                                        <p class="by-author">{!!$vacancy->body !!}</p>
-                                    </div>
+                            <div class="media media-vacancy mix {{$vacancy->type}}">
+                                <a class="pull-left" href="{{ route('vacancy.show') }}">
+                                    {!! HTML::image($vacancy->picture, $vacancy->title,['class' => 'media-object media-object-vacancy pull-left']) !!}
                                 </a>
-                            </li>
+                                <div class="media-body media-body-vacancy">
+                                    <h4 class="media-heading"><a href="{{ route('vacancy.show') }}" class="forum">{{ $vacancy->title }}</a></h4>
+                                    <p class="by-author">Nog iets</p>
+                                    {!! Str::words(strip_tags($vacancy->body), 60, '...') !!}
+                                </div>
+                            </div>
                         @endforeach
                     @else
                         <p>Er zijn op dit moment geen vacatures</p>
                     @endif
-                </ul>
             </div>
         </div>
     </div>
@@ -49,7 +48,7 @@
 @section('js')
     <script>
         $(function () {
-            $('.media-list').mixItUp();
+            $('.vacancy-list').mixItUp();
         });
     </script>
 @stop

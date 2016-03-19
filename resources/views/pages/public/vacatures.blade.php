@@ -29,7 +29,7 @@
                         @foreach($vacancies as $vacancy)
                             <li class="media mix {{$vacancy->type}}">
                                 <a href="{{ route('vacancy.show') }}" class="deco-none">
-                                    {!! HTML::image($vacancy->picture, $vacancy->title,['class' => 'media-object pull-left']) !!}
+                                    {!! HTML::image($vacancy->picture, $vacancy->title,['class' => 'media-object-vacancy pull-left']) !!}
                                     <div class="media-body" href="{{ route('vacancy.show') }}">
                                         <h3 class="media-heading forum">{{ $vacancy->title }}</h3>
                                         <p class="by-author">{!!$vacancy->body !!}</p>

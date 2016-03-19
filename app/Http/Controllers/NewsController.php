@@ -22,7 +22,7 @@ class NewsController extends Controller
     public function index()
     {
         $news = News::latest()->get();
-        return view('pages.admin.news.index')->with('news', $news);
+        return view('pages.admin.news.index', compact('news'));
     }
 
     /**

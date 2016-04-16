@@ -28,7 +28,7 @@
                         @foreach($vacancies as $vacancy)
                             <a href="{{ route('vacancy.show',['id' => $vacancy->id]) }}" class="list-group-item mix {{$vacancy->type}}">
                                 <div class="media col-md-4">
-                                        {!! HTML::image($vacancy->picture, $vacancy->title,['class' => 'img-rounded img-responsive center-block ']) !!}
+                                        {!! HTML::image($vacancy->picture, $vacancy->title,['class' => 'vacancy-image img-rounded img-responsive center-block ']) !!}
                                 </div>
                                 <div class="col-md-8">
                                     <h4 class="list-group-item-heading">{{ $vacancy->title }}</h4>

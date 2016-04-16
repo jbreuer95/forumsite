@@ -379,3 +379,9 @@ a.list-group-item.active small {
 .vacancy-list .mix{
     display: none;
 }
+
+@media only screen and (max-width : 992px) {
+.vacancy-image {
+    margin-bottom: 25px;
+}
+}

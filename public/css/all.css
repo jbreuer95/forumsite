@@ -18105,6 +18105,7 @@ footer .headline h3 {
   font-weight: 800;
   border-radius: 4px;
   cursor: pointer;
+  margin: 5px;
 }
 
 .filter.active {

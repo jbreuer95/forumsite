@@ -22,7 +22,7 @@
                 {!! $vacancy->body !!}
             </div>
             <div class="col-md-4">
-                {!! HTML::image($vacancy->picture, $vacancy->title,['class' => 'img-rounded img-responsive center-block']) !!}
+                {!! HTML::image($vacancy->picture, $vacancy->title,['class' => 'img-responsive center-block']) !!}
             </div>
         </div>
     </div>

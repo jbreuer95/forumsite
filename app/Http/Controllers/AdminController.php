@@ -1,6 +1,6 @@
 <?php
 
-namespace Forum\Http\Controllers;
+namespace Svforum\Http\Controllers;
 
 use Auth;
 use Illuminate\Http\Request;

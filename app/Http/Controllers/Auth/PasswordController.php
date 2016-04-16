@@ -1,8 +1,8 @@
 <?php
 
-namespace Forum\Http\Controllers\Auth;
+namespace Svforum\Http\Controllers\Auth;
 
-use Forum\Http\Controllers\Controller;
+use Svforum\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ResetsPasswords;
 
 class PasswordController extends Controller

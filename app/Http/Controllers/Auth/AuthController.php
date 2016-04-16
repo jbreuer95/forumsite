@@ -1,10 +1,10 @@
 <?php
 
-namespace Forum\Http\Controllers\Auth;
+namespace Svforum\Http\Controllers\Auth;
 
-use Forum\User;
+use Svforum\User;
 use Validator;
-use Forum\Http\Controllers\Controller;
+use Svforum\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 
@@ -28,7 +28,6 @@ class AuthController extends Controller
     /**
      * Create a new authentication controller instance.
      *
-     * @return void
      */
     public function __construct()
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Forum\Http;
+namespace Svforum\Http;
 
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
@@ -13,11 +13,11 @@ class Kernel extends HttpKernel
      */
     protected $middleware = [
         \Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode::class,
-        \Forum\Http\Middleware\EncryptCookies::class,
+        \Svforum\Http\Middleware\EncryptCookies::class,
         \Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse::class,
         \Illuminate\Session\Middleware\StartSession::class,
         \Illuminate\View\Middleware\ShareErrorsFromSession::class,
-        \Forum\Http\Middleware\VerifyCsrfToken::class,
+        \Svforum\Http\Middleware\VerifyCsrfToken::class,
     ];
 
     /**
@@ -26,8 +26,8 @@ class Kernel extends HttpKernel
      * @var array
      */
     protected $routeMiddleware = [
-        'auth' => \Forum\Http\Middleware\Authenticate::class,
+        'auth' => \Svforum\Http\Middleware\Authenticate::class,
         'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
-        'guest' => \Forum\Http\Middleware\RedirectIfAuthenticated::class,
+        'guest' => \Svforum\Http\Middleware\RedirectIfAuthenticated::class,
     ];
 }

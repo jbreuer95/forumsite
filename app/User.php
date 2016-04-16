@@ -1,6 +1,6 @@
 <?php
 
-namespace Forum;
+namespace Svforum;
 
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;

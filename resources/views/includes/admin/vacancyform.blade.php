@@ -10,10 +10,14 @@
         @if ($errors->has('title')) <p class="help-block">{{ $errors->first('title') }}</p> @endif
     </div>
     <div class="form-group @if($errors->has('slug')) has-error @endif">
-        {!! Form::label('slug','Slug') !!} <i class="fa fa-question-circle" rel="tooltip"
-                                              title="Uitgebreide uitleg op de uitleg pagina EERST LEZEN!"></i>
+        {!! Form::label('slug','Slug') !!} <i class="fa fa-question-circle" rel="too=ltip" title="Uitgebreide uitleg op de uitleg pagina EERST LEZEN!"></i>
         {!! Form::text('slug', null, ['class' => 'form-control', 'value' => Input::old('slug')]) !!}
         @if ($errors->has('slug')) <p class="help-block">{{ $errors->first('slug') }}</p> @endif
+    </div>
+    <div class="form-group required @if($errors->has('description')) has-error @endif">
+        {!! Form::label('description','Beschrijving',['class' => 'control-label']) !!}
+        {!! Form::textarea('description', null, ['class' => 'form-control', 'rows' => '4', 'value' => Input::old('description')]) !!}
+        @if ($errors->has('description')) <p class="help-block">{{ $errors->first('description') }}</p> @endif
     </div>
     <div class="form-group required @if($errors->has('body')) has-error @endif">
         {!! Form::label('body','Vacature',['class' => 'control-label']) !!}

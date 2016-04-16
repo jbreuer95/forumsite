@@ -1,6 +1,6 @@
 <?php
 
-namespace Forum\Jobs;
+namespace Svforum\Jobs;
 
 use Illuminate\Bus\Queueable;
 

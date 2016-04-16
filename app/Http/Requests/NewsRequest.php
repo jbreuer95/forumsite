@@ -1,6 +1,6 @@
 <?php
 
-namespace Forum\Http\Requests;
+namespace Svforum\Http\Requests;
 
 class NewsRequest extends Request
 {

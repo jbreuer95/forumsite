@@ -1,6 +1,6 @@
 <?php
 
-namespace Forum\Http\Requests;
+namespace Svforum\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

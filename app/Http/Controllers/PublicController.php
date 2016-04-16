@@ -1,10 +1,10 @@
 <?php
 
-namespace Forum\Http\Controllers;
+namespace Svforum\Http\Controllers;
 
 use Carbon\Carbon;
-use Forum\News;
-use Forum\Vacancy;
+use Svforum\News;
+use Svforum\Vacancy;
 use Illuminate\Http\Request;
 use Mail;
 use Response;

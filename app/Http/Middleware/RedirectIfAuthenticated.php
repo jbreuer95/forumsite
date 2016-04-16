@@ -1,6 +1,6 @@
 <?php
 
-namespace Forum\Http\Middleware;
+namespace Svforum\Http\Middleware;
 
 use Closure;
 use Illuminate\Contracts\Auth\Guard;

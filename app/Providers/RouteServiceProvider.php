@@ -1,6 +1,6 @@
 <?php
 
-namespace Forum\Providers;
+namespace Svforum\Providers;
 
 use Illuminate\Routing\Router;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
@@ -14,7 +14,7 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @var string
      */
-    protected $namespace = 'Forum\Http\Controllers';
+    protected $namespace = 'Svforum\Http\Controllers';
 
     /**
      * Define your route model bindings, pattern filters, etc.

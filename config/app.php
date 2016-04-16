@@ -2,6 +2,8 @@
 
 return [
 
+    'env' => env('APP_ENV', 'production'),
+
     /*
     |--------------------------------------------------------------------------
     | Application Debug Mode
@@ -113,13 +115,11 @@ return [
         /*
          * Laravel Framework Service Providers...
          */
-        Illuminate\Foundation\Providers\ArtisanServiceProvider::class,
         Illuminate\Auth\AuthServiceProvider::class,
         Illuminate\Broadcasting\BroadcastServiceProvider::class,
         Illuminate\Bus\BusServiceProvider::class,
         Illuminate\Cache\CacheServiceProvider::class,
         Illuminate\Foundation\Providers\ConsoleSupportServiceProvider::class,
-        Illuminate\Routing\ControllerServiceProvider::class,
         Illuminate\Cookie\CookieServiceProvider::class,
         Illuminate\Database\DatabaseServiceProvider::class,
         Illuminate\Encryption\EncryptionServiceProvider::class,
@@ -140,18 +140,18 @@ return [
         /*
          * Application Service Providers...
          */
-        Forum\Providers\AppServiceProvider::class,
-        Forum\Providers\AuthServiceProvider::class,
-        Forum\Providers\EventServiceProvider::class,
-        Forum\Providers\RouteServiceProvider::class,
+        Svforum\Providers\AppServiceProvider::class,
+        Svforum\Providers\AuthServiceProvider::class,
+        Svforum\Providers\EventServiceProvider::class,
+        Svforum\Providers\RouteServiceProvider::class,
 
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
-        Illuminate\Html\HtmlServiceProvider::class,
         Greggilbert\Recaptcha\RecaptchaServiceProvider::class,
         Laracasts\Flash\FlashServiceProvider::class,
         Cviebrock\ImageValidator\ImageValidatorServiceProvider::class,
         Stevebauman\CalendarHelper\CalendarHelperServiceProvider::class,
         BackupManager\Laravel\Laravel5ServiceProvider::class,
+        Collective\Html\HtmlServiceProvider::class,
 
     ],
 
@@ -201,12 +201,12 @@ return [
         'URL'       => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
-        'Form'      => Illuminate\Html\FormFacade::class,
-        'HTML'      => Illuminate\Html\HtmlFacade::class,
         'Recaptcha' => Greggilbert\Recaptcha\Facades\Recaptcha::class,
         'Flash'     => Laracasts\Flash\Flash::class,
         'Str'       => Illuminate\Support\Str::class,
         'Cal'       => Stevebauman\CalendarHelper\Facades\CalendarHelper::class,
+        'Form' => Collective\Html\FormFacade::class,
+        'HTML' => Collective\Html\HtmlFacade::class,
     ],
 
 ];

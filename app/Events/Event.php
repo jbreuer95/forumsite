@@ -1,6 +1,6 @@
 <?php
 
-namespace Forum\Events;
+namespace Svforum\Events;
 
 abstract class Event
 {

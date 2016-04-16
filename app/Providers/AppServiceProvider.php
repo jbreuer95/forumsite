@@ -1,8 +1,8 @@
 <?php
 
-namespace Forum\Providers;
+namespace Svforum\Providers;
 
-use Forum\News;
+use Svforum\News;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider

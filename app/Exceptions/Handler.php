@@ -1,6 +1,6 @@
 <?php
 
-namespace Forum\Exceptions;
+namespace Svforum\Exceptions;
 
 use Exception;
 use Illuminate\Database\Eloquent\ModelNotFoundException;

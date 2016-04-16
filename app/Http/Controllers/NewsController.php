@@ -1,10 +1,10 @@
 <?php
 
-namespace Forum\Http\Controllers;
+namespace Svforum\Http\Controllers;
 
-use Forum\Http\Requests;
-use Forum\Http\Requests\NewsRequest;
-use Forum\News;
+use Svforum\Http\Requests;
+use Svforum\Http\Requests\NewsRequest;
+use Svforum\News;
 use Illuminate\Http\Response;
 
 class NewsController extends Controller

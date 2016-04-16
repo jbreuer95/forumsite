@@ -1,8 +1,8 @@
 <?php
 
-namespace Forum\Http\Requests;
+namespace Svforum\Http\Requests;
 
-use Forum\Http\Requests\Request;
+use Svforum\Http\Requests\Request;
 
 class VacanciesRequest extends Request
 {
@@ -36,6 +36,7 @@ class VacanciesRequest extends Request
             'slug' => $slug_rule,
             'body' => 'required',
             'type' => 'required',
+            'description' => 'required',
         ];
     }
 }

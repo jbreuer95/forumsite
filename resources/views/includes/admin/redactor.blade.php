@@ -2,7 +2,7 @@
     $(function () {
         $('#body').redactor({
             focus: true,
-            imageUpload: '{{ url() }}/image/upload?_token=' + '{{ csrf_token() }}',
+            imageUpload: '/image/upload?_token=' + '{{ csrf_token() }}',
             plugins: ['table', 'video'],
             maxHeight: 300,
             minHeight: 300,

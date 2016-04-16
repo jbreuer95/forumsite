@@ -1,10 +1,10 @@
 <?php
 
-namespace Forum\Http\Controllers;
+namespace Svforum\Http\Controllers;
 
-use Forum\Http\Requests;
-use Forum\Http\Requests\VacanciesRequest;
-use Forum\Vacancy;
+use Svforum\Http\Requests;
+use Svforum\Http\Requests\VacanciesRequest;
+use Svforum\Vacancy;
 
 class VacanciesController extends Controller
 {
@@ -50,7 +50,8 @@ class VacanciesController extends Controller
      */
     public function show($id)
     {
-        //
+        $vacancy = Vacancy::findOrFail($id);
+        return view('pages.public.vacature', compact('vacancy'));
     }
 
     /**

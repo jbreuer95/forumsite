@@ -1,6 +1,6 @@
 <?php
 
-namespace Forum;
+namespace Svforum;
 
 use Illuminate\Database\Eloquent\Model;
 

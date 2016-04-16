@@ -1,6 +1,6 @@
 <?php
 
-namespace Forum\Providers;
+namespace Svforum\Providers;
 
 use Illuminate\Contracts\Auth\Access\Gate as GateContract;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
@@ -13,7 +13,7 @@ class AuthServiceProvider extends ServiceProvider
      * @var array
      */
     protected $policies = [
-        'Forum\Model' => 'Forum\Policies\ModelPolicy',
+        'Svforum\Model' => 'Svforum\Policies\ModelPolicy',
     ];
 
     /**

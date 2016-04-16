@@ -1,6 +1,6 @@
 <?php
 
-namespace Forum\Console;
+namespace Svforum\Console;
 
 use Carbon\Carbon;
 use Illuminate\Console\Scheduling\Schedule;
@@ -14,7 +14,7 @@ class Kernel extends ConsoleKernel
      * @var array
      */
     protected $commands = [
-        \Forum\Console\Commands\Inspire::class,
+        \Svforum\Console\Commands\Inspire::class,
     ];
 
     /**

@@ -1,6 +1,6 @@
 <?php
 
-namespace Forum\Console\Commands;
+namespace Svforum\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Foundation\Inspiring;

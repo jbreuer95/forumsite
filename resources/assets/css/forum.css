@@ -365,32 +365,17 @@ a.deco-none {
     text-decoration: none;
 }
 
+a.list-group-item {
+    height:auto;
+    min-height:220px;
+}
+a.list-group-item.active small {
+    color:#fff;
+}
+.stars {
+    margin:20px auto 1px;
+}
+
 .vacancy-list .mix{
     display: none;
-}
-
-/*.media:hover .media-heading {
-    margin-top: 5px;
-    margin-bottom: 0;
-}*/
-.media-vacancy:hover {
-    background-color: lightgrey;
-}
-
-.by-author {
-    font-weight: normal;
-    line-height: 1;
-    color: #999999;
-}
-
-.media-object-vacancy {
-    border-radius: 15px;
-}
-.media-vacancy {
-    border-radius: 15px;
-    overflow-y: hidden;
-}
-
-.media-body-vacancy {
-    padding: 15px;
 }

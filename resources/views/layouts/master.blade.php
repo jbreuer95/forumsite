@@ -80,6 +80,7 @@
                         <li>{!! HTML::link('/videos', 'Video\'s') !!}</li>
                     </ul>
                 </li>
+                <li>{!! HTML::link('/vacatures', 'Vacatures') !!}</li>
                 <li>{!! HTML::link('/partners-en-sponsoren', 'Sponsoren') !!}</li>
                 <li>{!! HTML::link('/inschrijven', 'Inschrijven') !!}</li>
                 <li>{!! HTML::link('/contact', 'Contact') !!}</li>

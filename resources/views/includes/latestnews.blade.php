@@ -22,7 +22,7 @@
     @else
         <div class="media">
             <a class="pull-left" href="#">
-                {!! HTML::image('http://d1qut4a1r795dy.cloudfront.net/fotos/nieuws/thumbnails/forumThumb.png','Blog Message',array('class' => 'media-object')) !!}
+                {!! HTML::image('/fotos/nieuws/thumbnails/forumThumb.png','Blog Message',array('class' => 'media-object')) !!}
             </a>
 
             <div class="media-body">

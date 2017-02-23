@@ -210,11 +210,10 @@ class PublicController extends Controller {
         //Push file to S3
         \Tinify\setKey(\Config::get('services.tinify.key'));
         $image = \Tinify\fromBuffer(file_get_contents($file))->resize(array('method' => 'fit', 'width' => 1920,'height' => 1080))->toBuffer();
-        $move = Storage::disk('s3')->put('fotos/nieuws/' . $filename, $image);
-        Storage::disk('s3')->setVisibility('fotos/nieuws/' . $filename, 'public');
+        $move = Storage::disk('local')->put('fotos/nieuws/' . $filename, $image);
 
         if($move){
-            return Response::json(['filelink'=>'http://d1qut4a1r795dy.cloudfront.net/fotos/nieuws/'. $filename]);
+            return Response::json(['filelink'=>'/fotos/nieuws/'. $filename]);
         }else{
             return Response::json(['error'=>true]);
         }

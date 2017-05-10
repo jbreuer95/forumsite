@@ -51,7 +51,7 @@
                             honderd jaar nog steeds een fantastische vereniging is!<br/><br/>
 
                             Bij vragen over de vereniging kun je contact opnemen via de mail of me even aanschieten als
-                            ik op school ben.
+                            ik op school ben
                             <br/>
                             {!! HTML::link('mailto:voorzitter@svforum.nl', 'voorzitter@svforum.nl') !!}
                         </p>
